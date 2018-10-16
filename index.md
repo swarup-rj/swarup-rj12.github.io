@@ -5,11 +5,12 @@ title: About me
 
 <p><h1>About me</h1></p>
 
-Download my [resume](https://rgriff23.github.io/assets/pdfs/Randi_Griffin_resume.pdf)
+#Download my [resume](https://rgriff23.github.io/assets/pdfs/Randi_Griffin_resume.pdf)
 
 ___
 
-I'm currently a fellow at Insight Data Science. I have a strong background in the social and biological sciences, as well as statistics and programming in R and Python. For examples of my work, check out my [blog](https://rgriff23.github.io/blog.html) or [publications](https://rgriff23.github.io/blog.html). You can also [fork me](https://github.com/rgriff23) on GitHub or [connect](https://www.linkedin.com/in/randigriffin) on LinkedIn!
+I am interested in the research work related to machine learning, data mining and
+application of these techniques. In particular short text mining and sport analytics.
 
 *Past work*
 
