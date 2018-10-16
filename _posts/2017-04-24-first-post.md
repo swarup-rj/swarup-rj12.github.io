@@ -8,33 +8,37 @@ comments: true
 
 1. TERMINAL(Ctrl+Alt+T) : Home Sweet Home : username@host: path
 2. Print Working Directory : pwd
-3. LIST FILES : NORMAL LISTING    : ls
-   WITH DETAILS      : ls -l
-  WITH HIDDEN FILES : ls -a
-  EVERYTHING        : ls -la
-4. NAVIGATING THROUGH DIRECTORY : FORWARD  : cd path
+3. LIST FILES : 
+NORMAL LISTING    : ls
+WITH DETAILS      : ls -l
+WITH HIDDEN FILES : ls -a
+EVERYTHING        : ls -la
+4. NAVIGATING THROUGH DIRECTORY : 
+FORWARD  : cd path
 BACKWARD : cd ..
-5. Directory : CREATE :  mkdir directory-name
-        REMOVE :  rmdir directory-name
-7. FILE : CREATE      : touch file-name
-   WRITE       : gedit file-name
-   echo "hi" > filename
-   ls >> filename
-   READ       : cat filename
-   COPY        : cp file1 file2
-   MOVE/RENAME : mv file1 file2
-   REMOVE      : rm file-name
+5. Directory : 
+CREATE :  mkdir directory-name
+REMOVE :  rmdir directory-name
+7. FILE : 
+CREATE      : touch file-name
+WRITE       : gedit file-name
+echo "hi" > filename
+ls >> filename
+READ       : cat filename
+COPY        : cp file1 file2
+MOVE/RENAME : mv file1 file2
+REMOVE      : rm file-name
 8. SEARCH : grep phrase file-name
 9. DIFFERENCES : diff file1 file2
 10. COMMAND HELP : info command OR help command
 11. PERMISSIONS:
   - / d       # # #           # # #         # # #
- <file / directory  Owner/user : u   Group : g   other people : o>
+ file / directory  Owner/user : u   Group : g   other people : o
  chmod o-w file1 : take away write permission from other
  chmod 0+w file1 : give write permission to other
  chmod -w file1  : take away write permission of file1
  chmod +w file1  : give write permission for file1
- <read    : r : 4, write    : w : 2, execute   : x : 1, No permission   : - : 0 >
+ read    : r : 4, write    : w : 2, execute   : x : 1, No permission   : - : 0 
  chmod 777 file1: everyone get all permission
  chmod 754 file1 : u(4+2+1) g(4+1) o(4)
 12. COMPRESS AND DECOMPRESS:
@@ -42,7 +46,7 @@ BACKWARD : cd ..
  UNZIP : gunzip file1.gz
  tar cvf file.tar file1 file2
  tar xvf file.tar
-  <c : create, v : view on terminal, f:file option, x:extract>
+c : create, v : view on terminal, f:file option, x:extract
 13. NETWORK CONNECTIONS & PROXIES
 NETWORK CONFIGURATION :
 BROWSER CONFIGURATION : 
