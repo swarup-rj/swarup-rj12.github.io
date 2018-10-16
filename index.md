@@ -12,13 +12,13 @@ ___
 I am interested in the research work related to machine learning, data mining and application of these techniques. 
 In particular short text mining and sportS analytics.
 
-*Current work*
+*Current work:*
 
-My academic (PhD) research focused on the mining of strengths and weakness of cricket players.
+My academic (PhD) research is focused on the identification of strengths and weakness of cricket players.
 Knowledge of strengths and weaknesses of players is the key for team selection and strategy planning.
 Central idea is to mine strength and weakness rules using short text commentary data.
 
-*Past work*
+*Past work:*
 
 Spectral clustering using convex and constrained settings, where I proposed a framework to incorporate pairwise constraints in to semidefinite spectral clustering. Further extended it from passive to active and self taught learning settings. 
 
