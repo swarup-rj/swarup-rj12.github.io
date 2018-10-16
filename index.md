@@ -10,18 +10,18 @@ Download my [resume](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
 ___
 
 I am interested in the research work related to machine learning, data mining and application of these techniques. 
-In particular short text mining and sport analytics.
+In particular short text mining and sportS analytics.
+
+*Current work*
+My academic (PhD) research focused on the mining of strengths and weakness of cricket players.
+Knowledge of strengths and weaknesses of players is the key for team selection and strategy planning.
+Central idea is to mine strength and weakness rules using short text commentary data.
 
 *Past work*
-
-My academic research focused on the mining of strengths and weakness of cricket players.
-Specific research topics included: (i) Mining of strengths and weakness of cricket players using cricket text commentary where I use machine learning and text mining techniques to mine for strategies in sports domain and  (ii) Spectral clustering using convex and constrained settings where I proposed a framework to incorporate pairwise constraints in to semidefinite spectral clustering. I then extended it from passive learning to active learning and self taught learning settings. 
+Spectral clustering using convex and constrained settings, where I proposed a framework to incorporate pairwise constraints in to semidefinite spectral clustering. Further extended it from passive to active and self taught learning settings. 
 
 In addition, I do a lot of side projects that push my boundaries or teach me something new. 
-For example, Community detection using greedy clique and plex algorithm where I implemented the existing Greedy Clique Algorithm (GCE) for community detection which uses Cliques as seeds. Further I proposed a novel Greedy Plex Algorithm, a variant of GCE which uses plexes in place of cliques.
+For example, Community detection using greedy clique and plex algorithm where I implemented the existing Greedy Clique Algorithm (GCE) for community detection which uses cliques as seeds. Further I proposed a novel Greedy Plex Algorithm, a variant of GCE which uses plexes in place of cliques.
 
-*Personal*
-
-I live in Brahmaputra Hostel, [IIT Guwahati](http://www.iitg.ac.in/)
 
 **[Last updated: October 16, 2018]**
