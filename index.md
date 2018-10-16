@@ -5,7 +5,7 @@ title: About me
 
 <p><h1>About me</h1></p>
 
-Download my [resume](swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
+Download my [resume](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
 
 ___
 
