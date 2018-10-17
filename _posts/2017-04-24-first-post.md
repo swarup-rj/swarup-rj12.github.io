@@ -6,20 +6,25 @@ tags: blog
 comments: true
 ---
 
-###  TERMINAL(Ctrl+Alt+T) : 
+#####  Terminal (Ctrl+Alt+T) 
 
 Home Sweet Home : username@host: path
 
 
-2. Print Working Directory : pwd
-3. LIST FILES : 
-NORMAL LISTING    : ls
-WITH DETAILS      : ls -l
-WITH HIDDEN FILES : ls -a
-EVERYTHING        : ls -la
-4. NAVIGATING THROUGH DIRECTORY : 
-FORWARD  : cd path
-BACKWARD : cd ..
+#####  Print Working Directory (pwd)
+
+#####  List Files
+
+Normal listing: ls
+Listing with details: ls -l
+Listing with hidden files: ls -a
+List everything: ls -la
+
+#####  Navigating Through Directory
+
+Forward navigation: cd path
+Backward  navigation: cd ..
+
 5. Directory : 
 CREATE :  mkdir directory-name
 REMOVE :  rmdir directory-name
