@@ -63,22 +63,37 @@ info command
 
 help command
 
-11. PERMISSIONS:
-  - / d       # # #           # # #         # # #
- file / directory  Owner/user : u   Group : g   other people : o
- chmod o-w file1 : take away write permission from other
- chmod 0+w file1 : give write permission to other
- chmod -w file1  : take away write permission of file1
- chmod +w file1  : give write permission for file1
- read    : r : 4, write    : w : 2, execute   : x : 1, No permission   : - : 0 
- chmod 777 file1: everyone get all permission
- chmod 754 file1 : u(4+2+1) g(4+1) o(4)
-12. COMPRESS AND DECOMPRESS:
- ZIP   : gzip file1
- UNZIP : gunzip file1.gz
- tar cvf file.tar file1 file2
- tar xvf file.tar
-c : create, v : view on terminal, f:file option, x:extract
+#####  File Permissions
+ 
+ Notations-1:  file owner/user: u, group: g, other people: o
+ 
+ Take write permission away from other: chmod o-w file1
+ 
+ Give write permission to other: chmod o+w file1
+ 
+ Take write permission away from file1: chmod -w file1
+ 
+ Give write permission for file1: chmod +w file1
+ 
+ Notations-2: read:r:4, write:w:2, execute:x:1, no permission:-: 0 
+ 
+ Give everyone all permissions:  chmod 777 file1
+ 
+ u(4+2+1) g(4+1) o(4): chmod 754 file1
+
+#####  Compress and Decompress File
+ 
+ Notations: c: create, v: view on terminal, f: file option, x: extract
+ 
+ Compress/Zip: gzip file1
+ 
+ Decompress/Unzip: gunzip file1.gz
+ 
+ Compress/Tar: tar cvf file.tar file1 file2
+ 
+ Decompress/Untar: tar xvf file.tar
+
+
 13. NETWORK CONNECTIONS & PROXIES
 NETWORK CONFIGURATION :
 BROWSER CONFIGURATION : 
