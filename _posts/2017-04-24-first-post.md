@@ -6,6 +6,7 @@ tags: blog
 comments: true
 ---
 
+
 {% highlight javascript %}
 /* Some pointless Javascript */
 var rawr = ["r", "a", "w", "r"];
@@ -23,13 +24,10 @@ Command (write in terminal): pwd
 
 #####  List Files
 
-Normal listing: ls
-
-Listing with details: ls -l
-
-Listing with hidden files: ls -a
-
-List everything: ls -la
+Normal listing: ls  
+Listing with details: ls -l  
+Listing with hidden files: ls -a  
+List everything: ls -la  
 
 #####  Navigating Through Directory
 
