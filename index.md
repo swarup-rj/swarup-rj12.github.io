@@ -10,12 +10,12 @@ Download my [resume](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
 ___
 
 I am interested in the research work related to machine learning, data mining and application of these techniques. 
-In particular short text mining and sportS analytics.
+In particular short text mining and sports analytics.
 
 *Current work:*
 
-My academic (PhD) research is focused on the identification of strengths and weakness of cricket players.
-Knowledge of strengths and weaknesses of players is the key for team selection and strategy planning.
+My academic (PhD) research is focused on the identification of strengths and weakness of players in the game of Cricket.
+Computationally, learning individual players strengths and weaknesses is a non-trivial and an unexplored machine learning problem that has significant commercial value. It is the key for team selection and strategy planning.
 Central idea is to mine strength and weakness rules using short text commentary data.
 
 *Past work:*
