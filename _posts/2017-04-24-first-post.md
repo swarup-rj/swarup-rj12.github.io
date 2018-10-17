@@ -102,7 +102,7 @@ help command
 
 3. Network Proxy Setting:
 
-  Home > network proxy > manual > host:port_no > apply system wide
+    Home > network proxy > manual > host:port_no > apply system wide
 
 4. Terminal Proxy Setting: 
 
