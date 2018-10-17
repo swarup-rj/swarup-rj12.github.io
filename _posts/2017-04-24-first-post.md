@@ -6,40 +6,63 @@ tags: blog
 comments: true
 ---
 
-#####  Terminal (Ctrl+Alt+T) 
+#####  Terminal 
+
+Open terminal: Ctrl+Alt+T
 
 Home Sweet Home : username@host: path
 
 
-#####  Print Working Directory (pwd)
+#####  Print Working Directory 
+
+Command (write in terminal): pwd
 
 #####  List Files
 
 Normal listing: ls
+
 Listing with details: ls -l
+
 Listing with hidden files: ls -a
+
 List everything: ls -la
 
 #####  Navigating Through Directory
 
 Forward navigation: cd path
+
 Backward  navigation: cd ..
 
-5. Directory : 
-CREATE :  mkdir directory-name
-REMOVE :  rmdir directory-name
-7. FILE : 
-CREATE      : touch file-name
-WRITE       : gedit file-name
-echo "hi" > filename
-ls >> filename
-READ       : cat filename
-COPY        : cp file1 file2
-MOVE/RENAME : mv file1 file2
-REMOVE      : rm file-name
-8. SEARCH : grep phrase file-name
-9. DIFFERENCES : diff file1 file2
-10. COMMAND HELP : info command OR help command
+#####  Directory
+
+Create directory:  mkdir directory-name
+
+Delete  directory:  rmdir directory-name
+
+#####  File
+
+Create file: touch file-name
+
+Write in a file: gedit file-name, echo "hi" > filename, ls >> filename
+
+Read from a file: cat filename
+
+Copy from file1 to file2: cp file1 file2
+
+Move/rename from file1 to file2: mv file1 file2
+
+Delete file: rm file-name
+
+Search in a file: grep phrase file-name
+
+Differences between two files : diff file1 file2
+
+#####  Command Help
+
+info command
+
+help command
+
 11. PERMISSIONS:
   - / d       # # #           # # #         # # #
  file / directory  Owner/user : u   Group : g   other people : o
