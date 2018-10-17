@@ -6,12 +6,16 @@ tags: blog
 comments: true
 ---
 
+{% highlight javascript %}
+/* Some pointless Javascript */
+var rawr = ["r", "a", "w", "r"];
+{% endhighlight %}
+
+
 #####  Terminal 
 
-Open terminal: Ctrl+Alt+T
-
+Open terminal: Ctrl+Alt+T  
 Home Sweet Home : username@host: path
-
 
 #####  Print Working Directory 
 
