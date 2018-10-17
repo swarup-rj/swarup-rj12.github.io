@@ -130,7 +130,7 @@ Delete group: sudo groupdel group-name
     1. Unpack the tar file: tar xvfz 7z.tar.gz      
     2. Navigate to the file: cd file-path      
     3. Read INSTALL or INSTALL.txt or README for compiling process.      
-    Classical Steps:       
-     1. Ready the tool for compilation: ./configure       
-     2. Compile & Build the tool: make       
-     3. Load the program: make install  
+Classical Steps:       
+ 1. Ready the tool for compilation: ./configure       
+ 2. Compile & Build the tool: make       
+ 3. Load the program: make install  
