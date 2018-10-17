@@ -6,7 +6,11 @@ tags: blog
 comments: true
 ---
 
-1. TERMINAL(Ctrl+Alt+T) : Home Sweet Home : username@host: path
+###  TERMINAL(Ctrl+Alt+T) : 
+
+Home Sweet Home : username@host: path
+
+
 2. Print Working Directory : pwd
 3. LIST FILES : 
 NORMAL LISTING    : ls
