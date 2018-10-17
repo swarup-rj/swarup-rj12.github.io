@@ -7,7 +7,7 @@ comments: true
 ---
 
 
-{% highlight javascript %}
+{% highlight javascript linenos %}
 /* Some pointless Javascript */
 var rawr = ["r", "a", "w", "r"];
 {% endhighlight %}
