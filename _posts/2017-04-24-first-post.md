@@ -7,9 +7,9 @@ comments: true
 ---
 
 
-{% highlight javascript linenos %}
-/* Some pointless Javascript */
-var rawr = ["r", "a", "w", "r"];
+{% highlight python linenos %}
+for i in foo:
+    print i
 {% endhighlight %}
 
 
