@@ -94,60 +94,118 @@ help command
  Decompress/Untar: tar xvf file.tar
 
 
-13. NETWORK CONNECTIONS & PROXIES
-NETWORK CONFIGURATION :
-BROWSER CONFIGURATION : 
-NETWORK PROXY SETTING : 
+#####  Network Connections & Proxies
+
+1. Network Configurations:
+
+2. Browser Configurations : 
+
+3. Network Proxy Setting:
+
   Home > network proxy > manual > host:port_no > apply system wide
-TERMINAL PROXY SETTING : sudo gedit /etc/apt/apt.conf
-  Acquire::http::proxy "http://username:password@host:port_no/";
-  Acquire::https::proxy "https://username:password@host:port_no/";
-  Acquire::ftp::proxy "ftp://username:password@host:port_no/";
-  Acquire::socks::proxy "socks://username:password@host:port_no/";
-14. USERS 
-SUPERUSER : ROOT 
-SET ROOT PASSWORD     : sudo passwd
- LOGIN AS ROOT         : su
- EXIT FROM ROOT        : exit
- NORMAL USER :
- ADD USER        : sudo useradd user-name
- ADD PASSWORD FOR USER : sudo passwd user-name
- SWITCH USER       : su user-name
- IDENTIFYING USER      : whoami
- MODIFY USER NAME      : sudo usermod -l new-u-n old-u-n
- LIST ALL USERS       : getent passwd 
- DELETE USER        : sudo userdel user-name
- GROUP :
- ADD GROUP             : sudo groupadd group-name
- ADD USER TO GROUP     : sudo gpasswd -a user group-name
- REMOVE USER FROM GROUP: sudo gpasswd -d user group-name
- RENAME A GROUP        : sudo groupmod -n new-g-n old-g-n
- LIST ALL GROUPS       : sudo cat /etc/group
- GROUP MEMBERSHIP      : sudo groups user-name 
- DELETE GROUP          : sudo groupdel group-name
-15.  INSTALLING SOFTWARE  
-UBUNTU SOFTWARE CENTER
-SYNAPTIC PACKAGE MANAGER
-INSTALL .deb FILE : .deb : Debian applications for Linux
-1st Way : 
-     1. Download the File.  
-     2. Double Click > Opens in Ubuntu Soft. Centre.
-    3. Click Install.
-2nd Way :  
-    1. Navigate to the directory where .deb file is.
-    2. Extract .deb file : sudo dpkg -i package.deb
-    3. Boom, its installed.
-ADVANCE PACKAGE TOOL : apt : command-line
-downld+comp.+inst.      : sudo apt-get install package-name
- Updates       : sudo apt-get update
- Upgrade       : sudo apt-get upgrade
- Uninstall       : sudo apt-get remove package-name
- Uninst. & Remv. conf-files  : sudo apt-get purge package-name
-INSTALL .tar FILE :
-1. Unpack the tar file    : tar xvfz 7z.tar.gz
- 2. Navigate to the file      : cd file-path
-3. Read INSTALL or INSTALL.txt or README for compiling process.
-Classical Steps : 
- i. Ready the tool for compilation  : ./configure 
- ii. Compile & Build the tool  : make
- iii. Load the program   : make install 
+
+4. Terminal Proxy Setting: 
+
+    sudo gedit /etc/apt/apt.conf
+    
+    Edit the file:
+    
+    Acquire::http::proxy "http://username:password@host:port_no/";
+    
+    Acquire::https::proxy "https://username:password@host:port_no/";
+    
+    Acquire::ftp::proxy "ftp://username:password@host:port_no/";
+    
+    Acquire::socks::proxy "socks://username:password@host:port_no/";
+
+#####  Users
+
+Superuser is  ROOT
+
+Set root password: sudo passwd
+
+Login as root: su
+
+Exit from root: exit
+
+ Add user: sudo useradd user-name
+ 
+Add password for user: sudo passwd user-name
+
+Switch user: su user-name
+
+Identify user: whoami
+
+Modify username: sudo usermod -l new-u-n old-u-n
+
+List all user: getent passwd 
+
+ Delete user: sudo userdel user-name
+ 
+#####  Groups
+
+Add group: sudo groupadd group-name
+
+Add user to group: sudo gpasswd -a user group-name
+
+Remove user from group: sudo gpasswd -d user group-name
+
+Rename a group: sudo groupmod -n new-g-n old-g-n
+
+List all groups: sudo cat /etc/group
+
+Group membership: sudo groups user-name 
+
+Delete group: sudo groupdel group-name
+
+#####  Install Software 
+
+1. Ubuntu Software Centre
+
+2. Synaptic Package Manager
+
+3. Install .deb(debian applications for Linux) File:
+
+    1. 1st Way : 
+    
+        1. Download the file.
+        
+        2. Double click > opens in ubuntu software centre.
+        
+        3. Click install.
+        
+    2. 2nd Way :  
+    
+        1. Navigate to the directory where .deb file is.
+        
+        2. Extract .deb file: sudo dpkg -i package.deb
+        
+        3. Boom, its installed.
+        
+4. Advance Package Tool: apt: command-line
+
+    download and compile and install: sudo apt-get install package-name
+    
+     Update: sudo apt-get update
+     
+     Upgrade: sudo apt-get upgrade
+     
+     Uninstall: sudo apt-get remove package-name
+     
+     Uninstall and Remove configuration files: sudo apt-get purge package-name
+     
+     Install .tar File :
+     
+    1. Unpack the tar file: tar xvfz 7z.tar.gz
+    
+    2. Navigate to the file: cd file-path
+    
+    3. Read INSTALL or INSTALL.txt or README for compiling process.
+    
+    Classical Steps: 
+    
+     1. Ready the tool for compilation: ./configure 
+     
+     2. Compile & Build the tool: make
+     
+     3. Load the program: make install 
