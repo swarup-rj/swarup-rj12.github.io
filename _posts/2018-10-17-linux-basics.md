@@ -12,15 +12,17 @@ Ctrl+Alt+T  /*Open terminal*/
 {% endhighlight %}
 
 #####  Print Working Directory 
-
-Command (write in terminal): pwd
+{% highlight unix %}
+pwd  /*Command (write in terminal)*/
+{% endhighlight %} 
 
 #####  List Files
-
-Normal listing: ls  
-Listing with details: ls -l  
-Listing with hidden files: ls -a  
-List everything: ls -la  
+{% highlight unix %}
+ls  /*List files in a directory*/
+ls -l  /*List files in a directory with details*/
+ls -a  /*List files and hidden files in a directory*/
+ls  -la /*List everything with all details*/
+{% endhighlight %}   
 
 #####  Navigating Through Directory
 
