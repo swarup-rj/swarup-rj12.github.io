@@ -7,22 +7,33 @@ comments: true
 ---
 
 #####  Terminal (username@host:path)
-Open terminal
+*Open terminal*
 {% highlight unix %}
 Ctrl+Alt+T
 {% endhighlight %}
 
 #####  Print Working Directory 
+*Command (write in terminal)*
 {% highlight unix %}
-pwd  /*Command (write in terminal)*/
+pwd
 {% endhighlight %} 
 
 #####  List Files
+*List files in a directory*
 {% highlight unix %}
-ls  /*List files in a directory*/
-ls -l  /*List files in a directory with details*/
-ls -a  /*List files and hidden files in a directory*/
-ls  -la /*List everything with all details*/
+ls
+{% endhighlight %}
+*List files in a directory with details*
+{% highlight unix %}
+ls -l
+{% endhighlight %}
+*List files and hidden files in a directory*
+{% highlight unix %}
+ls -a  
+{% endhighlight %}
+*List everything with all details*
+{% highlight unix %}
+ls  -la 
 {% endhighlight %}   
 
 #####  Navigating Through Directory
