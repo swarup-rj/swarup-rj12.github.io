@@ -7,8 +7,9 @@ comments: true
 ---
 
 #####  Terminal (username@host:path)
+Open terminal
 {% highlight unix %}
-Ctrl+Alt+T  /*Open terminal*/
+Ctrl+Alt+T
 {% endhighlight %}
 
 #####  Print Working Directory 
