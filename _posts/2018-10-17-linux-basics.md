@@ -1,15 +1,15 @@
 ---
-title: "Linux Commands: Basic"
+title: "Linux Commands"
 layout: post
 date: 2018-10-17
 tags: blog
 comments: true
 ---
 
-#####  Terminal 
-
-Open terminal: Ctrl+Alt+T  
-Home Sweet Home : username@host: path
+#####  Terminal (username@host:path)
+{% highlight unix %}
+Ctrl+Alt+T  /*Open terminal*/
+{% endhighlight %}
 
 #####  Print Working Directory 
 
