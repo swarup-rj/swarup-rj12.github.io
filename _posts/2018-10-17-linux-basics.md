@@ -188,18 +188,57 @@ help command
 {% endhighlight %} 
 
 #####  Users
+
+Superuser is  ROOT 
+
+*Set root password:* 
 {% highlight unix %}
-Superuser is  ROOT  
-Set root password: sudo passwd  
-Login as root: su  
-Exit from root: exit  
-Add user: sudo useradd user-name   
-Add password for user: sudo passwd user-name  
-Switch user: su user-name  
-Identify user: whoami  
-Modify username: sudo usermod -l new-u-n old-u-n  
-List all user: getent passwd  
-Delete user: sudo userdel user-name
+sudo passwd 
+{% endhighlight %} 
+
+*Login as root:* 
+{% highlight unix %}
+su  
+{% endhighlight %}
+
+*Exit from root:* 
+{% highlight unix %}
+exit  
+{% endhighlight %}
+
+*Add user:* 
+{% highlight unix %}
+sudo useradd user-name
+{% endhighlight %} 
+
+*Add password for user:* 
+{% highlight unix %}
+sudo passwd user-name 
+{% endhighlight %} 
+
+*Switch user:* 
+{% highlight unix %}
+su user-name  
+{% endhighlight %} 
+
+*Identify user:* 
+{% highlight unix %}
+whoami 
+{% endhighlight %} 
+
+*Modify username:* 
+{% highlight unix %}
+sudo usermod -l new-u-n old-u-n
+{% endhighlight %} 
+
+*List all user:* 
+{% highlight unix %}
+getent passwd 
+{% endhighlight %} 
+
+*Delete user:* 
+{% highlight unix %}
+sudo userdel user-name
 {% endhighlight %} 
 
 #####  Groups
