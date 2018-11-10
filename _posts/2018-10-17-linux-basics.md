@@ -183,21 +183,50 @@ Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0)
 
 
 #### Working with Remote Server: Secure Copy (SCP)) :
+    
+*Secure Copy a File from Local host to a Remote host:*
+{% highlight unix %}
+scp filename.txt username@remotehost:path
+{% endhighlight %}
 
-| Operation | Command |
-|-------|--------| 
-|Secure Copy a File from Local host to a Remote host | scp filename.txt username@remotehost:path|
-|Secure Copy a File from Local host to Home Directory on Remote Host | scp filename.txt username@remotehost:~|
-|Secure Copy Multiple Files from Local host to a Remote host | scp file1.txt file2.txt your_un@rh.edu:~ |
-|Secure Copy a Directory from Local host to a Remote host | scp -r directoryname username@remotehost:path/directoryname|
-|Secure Copy Using port 2264 from Local host to a Remote host | scp -P 2264 filename.txt username@remotehost:~|
-|Secure Copy a File from Remote host to a Local host | scp username@remotehost:filename.txt path |
-|Secure Copy Multiple Files from Remote host to a Local host | scp username@remotehost:~/\{file1.txt,file2.txt\}|
-|Secure Copy from Remote Host "rh1" to "rh2"  | scp username@rh1:path/filename.txt \username@rh2:path/|
-|-------|--------|
+*Secure Copy a File from Local host to Home Directory on Remote Host:* 
+{% highlight unix %}
+scp filename.txt username@remotehost:~
+{% endhighlight %}
+
+*Secure Copy Multiple Files from Local host to a Remote host:*
+{% highlight unix %}
+scp file1.txt file2.txt your_un@rh.edu:~ 
+{% endhighlight %}
+
+*Secure Copy a Directory from Local host to a Remote host:*
+{% highlight unix %}
+scp -r directoryname username@remotehost:path/directoryname
+{% endhighlight %}
+
+*Secure Copy Using port 2264 from Local host to a Remote host:*
+{% highlight unix %}
+scp -P 2264 filename.txt username@remotehost:~
+{% endhighlight %}
+
+*Secure Copy a File from Remote host to a Local host:*
+{% highlight unix %}   
+scp username@remotehost:filename.txt path
+{% endhighlight %}
+
+*Secure Copy Multiple Files from Remote host to a Local host:*
+{% highlight unix %}
+scp username@remotehost:~/\{file1.txt,file2.txt\}
+{% endhighlight %}
+
+*Secure Copy from Remote Host "rh1" to "rh2":*
+{% highlight unix %}
+scp username@rh1:path/filename.txt \username@rh2:path/
+{% endhighlight %}
 
 #####  Command Help
 {% highlight unix %}
 info command 
+
 help command
 {% endhighlight %} 
