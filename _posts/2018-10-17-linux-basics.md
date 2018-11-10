@@ -84,37 +84,18 @@ Backward navigation | cd .. |
 |-------|--------| 
 
 #####  File Permissions
- Notations-1 (file owner/user: u, group: g, other people: o):
+Notations-1 (file owner/user: u, group: g, other people: o)
+Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0)
   
- *Take write permission away from other:* 
- {% highlight unix %} 
- chmod o-w file1
- {% endhighlight %} 
- *Give write permission to other:* 
- {% highlight unix %} 
- chmod o+w file1
- {% endhighlight %} 
- *Take write permission away from file1:* 
- {% highlight unix %} 
- chmod -w file1
- {% endhighlight %}  
- *Give write permission for file1:* 
- {% highlight unix %} 
- chmod +w file1
- {% endhighlight %} 
-
- Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0):
-
- *Give everyone all permissions:* 
- {% highlight unix %} 
- chmod 777 file1   
- {% endhighlight %} 
-
- *u(4+2+1) g(4+1) o(4):*
- {% highlight unix %} 
- chmod 754 file1
- {% endhighlight %} 
- 
+| Operation | Command |
+|-------|--------| 
+| Take write permission away from other | chmod o-w file1 |
+| Give write permission to other | chmod o+w file1 |
+| Take write permission away from file1 | chmod -w file1 |
+| Give write permission for file1 | chmod +w file1 |
+| Give everyone all permissions | chmod 777 file1 |   
+| u(4+2+1) g(4+1) o(4) | chmod 754 file1 |
+|-------|--------|  
 
 #####  Network Connections & Proxies
 {% highlight unix %}
