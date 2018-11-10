@@ -72,41 +72,16 @@ Backward navigation | cd .. |
 
 #####  Groups
 
-*Add group:* 
-{% highlight unix %}
-sudo groupadd groupname
-{% endhighlight %}
-
-*Add user to group:* 
-{% highlight unix %}
-sudo gpasswd -a user groupname
-{% endhighlight %}
-
-*Remove user from group:* 
-{% highlight unix %}
-sudo gpasswd -d user groupname
-{% endhighlight %}
-
-*Rename a group:* 
-{% highlight unix %}
-sudo groupmod -n newgroupname oldgroupname
-{% endhighlight %}
-
-*List all groups:* 
-{% highlight unix %}
-sudo cat /etc/group
-{% endhighlight %}
-
-*Group membership:* 
-{% highlight unix %}
-sudo groups username
-{% endhighlight %}
-
-*Delete group:* 
-{% highlight unix %}
-sudo groupdel groupname
-{% endhighlight %}
-
+| Operation | Command |
+|-------|--------|
+|Add group | sudo groupadd groupname|
+|Add user to group | sudo gpasswd -a user groupname|
+|Remove user from group | sudo gpasswd -d user groupname|
+|Rename a group | sudo groupmod -n newgroupname oldgroupname|
+|List all groups | sudo cat /etc/group|
+|Group membership | sudo groups username|
+|Delete group | sudo groupdel groupname|
+|-------|--------| 
 
 #####  File Permissions
  Notations-1 (file owner/user: u, group: g, other people: o):
