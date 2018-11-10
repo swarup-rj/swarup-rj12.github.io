@@ -311,6 +311,110 @@ sudo groupdel groupname
          3. Load the program: make install  
 {% endhighlight %} 
 
+#####  Working with Remote Server: Secure SHell(SSH)
+*ssh connect:*
+{% highlight unix %}
+ssh remote_username@remote_host
+{% endhighlight %} 
+
+*ssh disconnect:* 
+{% highlight unix %}      
+exit
+{% endhighlight %} 
+
+#####  Working with Remote Server: Secure File Transfer(SFTP)
+*sftp connect:*
+{% highlight unix %} 
+sftp remote_username@remote_host
+{% endhighlight %} 
+
+*sftp disconnect:*    
+{% highlight unix %}
+exit
+{% endhighlight %} 
+
+*Commands on Remote host:* 
+{% highlight unix %}
+ls, mkdir, pwd, cd ...
+{% endhighlight %} 
+
+*Commands on Local host:* 
+{% highlight unix %}
+lls, lmkdir, lpwd, lcd ...
+{% endhighlight %} 
+
+*Download File from Remote Host:*
+{% highlight unix %} 
+get filename.txt
+{% endhighlight %} 
+
+*Download Multiple Files from Remote Host:* 
+{% highlight unix %}
+mget \*.txt
+{% endhighlight %} 
+
+*Download Directory from Remote Host:* 
+{% highlight unix %}
+get -r directoryname
+{% endhighlight %} 
+
+*Upload File to Remote Host:*
+{% highlight unix %}
+put filename.txt
+{% endhighlight %} 
+
+*Upload Multiple Files to Remote Host:* 
+{% highlight unix %}
+mput \*.txt
+{% endhighlight %} 
+
+*Upload Directory to Remote Host:* 
+{% highlight unix %}
+put -r directoryname
+{% endhighlight %} 
+
+#### Working with Remote Server: Secure Copy (SCP)) :
+    
+*Secure Copy a File from Local host to a Remote host:*
+{% highlight unix %}
+scp filename.txt username@remotehost:path
+{% endhighlight %} 
+
+*Secure Copy a File from Local host to Home Directory on Remote Host:* 
+{% highlight unix %}
+scp filename.txt username@remotehost:~
+{% endhighlight %} 
+
+*Secure Copy Multiple Files from Local host to a Remote host:*
+{% highlight unix %} 
+scp file1.txt file2.txt your_un@rh.edu:~ 
+{% endhighlight %}
+
+*Secure Copy a Directory from Local host to a Remote host:*
+{% highlight unix %} 
+scp -r directoryname username@remotehost:path/directoryname
+{% endhighlight %}
+
+*Secure Copy Using port 2264 from Local host to a Remote host:*
+{% highlight unix %} 
+scp -P 2264 filename.txt username@remotehost:~
+{% endhighlight %}
+
+*Secure Copy a File from Remote host to a Local host:*
+{% highlight unix %}    
+scp username@remotehost:filename.txt path
+{% endhighlight %}
+
+*Secure Copy Multiple Files from Remote host to a Local host:*
+{% highlight unix %}
+scp username@remotehost:~/\{file1.txt,file2.txt\}
+{% endhighlight %}
+
+*Secure Copy from Remote Host "rh1" to "rh2":*
+{% highlight unix %}
+scp username@rh1:path/filename.txt \username@rh2:path/
+{% endhighlight %}
+
 #####  Command Help
 {% highlight unix %}
 info command 
