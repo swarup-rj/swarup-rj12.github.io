@@ -22,12 +22,12 @@ pwd
 
 *Create directory:*
 {% highlight unix %}
-mkdir directory-name
+mkdir directoryname
 {% endhighlight %}  
 
 *Remove/Delete  directory:*
 {% highlight unix %}
-rmdir directory-name
+rmdir directoryname
 {% endhighlight %}
 
 #####  Navigating Through Directory
