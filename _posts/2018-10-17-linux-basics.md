@@ -30,48 +30,14 @@ Backward Navigation | cd .. |
  
 
 #####  File Operations
-*Create file:* 
-{% highlight unix %}
-touch filename
-{% endhighlight %} 
-
-*Write in a file:* 
-{% highlight unix %}
-vi filename
-gedit file-name 
-echo "hi" > filename
-ls >> filename
-{% endhighlight %} 
-
-*Read from a file:* 
-{% highlight unix %}
-cat filename
-{% endhighlight %} 
-
-*Copy from file1 to file2:* 
-{% highlight unix %}
-cp file1 file2
-{% endhighlight %} 
-
-*Move/rename from file1 to file2:* 
-{% highlight unix %}
-mv file1 file2  
-{% endhighlight %} 
-
-*Delete file:* 
-{% highlight unix %}
-rm filename  
-{% endhighlight %} 
-
-*Search in a file:* 
-{% highlight unix %}
-grep phrase filename  
-{% endhighlight %} 
-
-*Differences between two files:* 
-{% highlight unix %}
-diff file1 file2  
-{% endhighlight %} 
+| Create file | touch filename | 
+| Delete file | rm filename |
+| Write in a file | vim filename, gedit file-name | 
+| Read from a file | cat filename | 
+| Copy from file1 to file2 | cp file1 file2 | 
+| Move/rename from file1 to file2 | mv file1 file2 |  
+| Search in a file | grep phrase filename |    
+| Differences between two files | diff file1 file2 |   
 
 #####  Compress and Decompress File
  Notations: c: create, v: view on terminal, f: file option, x: extract
