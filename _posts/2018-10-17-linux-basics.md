@@ -30,6 +30,7 @@ Backward Navigation | cd .. |
  
 
 #####  File Operations
+
 | Operation | Command |
 |-------|--------|
 | Create file | touch filename | 
