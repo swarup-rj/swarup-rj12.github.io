@@ -61,15 +61,47 @@ rmdir directory-name
 {% endhighlight %} 
 
 #####  File
+
+*Create file:* 
 {% highlight unix %}
-Create file: touch file-name  
-Write in a file: gedit file-name, echo "hi" > filename, ls >> filename  
-Read from a file: cat filename  
-Copy from file1 to file2: cp file1 file2  
-Move/rename from file1 to file2: mv file1 file2  
-Delete file: rm file-name  
-Search in a file: grep phrase file-name  
-Differences between two files : diff file1 file2  
+touch file-name
+{% endhighlight %} 
+
+*Write in a file:* 
+{% highlight unix %}
+gedit file-name
+echo "hi" > filename
+ls >> filename
+{% endhighlight %} 
+
+*Read from a file:* 
+{% highlight unix %}
+cat filename
+{% endhighlight %} 
+
+*Copy from file1 to file2:* 
+{% highlight unix %}
+cp file1 file2
+{% endhighlight %} 
+
+*Move/rename from file1 to file2:* 
+{% highlight unix %}
+mv file1 file2  
+{% endhighlight %} 
+
+*Delete file:* 
+{% highlight unix %}
+rm file-name  
+{% endhighlight %} 
+
+*Search in a file:* 
+{% highlight unix %}
+grep phrase file-name  
+{% endhighlight %} 
+
+*Differences between two files:* 
+{% highlight unix %}
+diff file1 file2  
 {% endhighlight %} 
 
 #####  Command Help
