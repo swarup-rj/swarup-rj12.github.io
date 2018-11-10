@@ -15,7 +15,13 @@ sudo apt-get update
 ###### Install scipy Stack
 {% highlight unix %}
 sudo apt-get install -y python3-numpy python3-scipy python3-nose python3-h5py python3-skimage python3-matplotlib python3-pandas python3-sklearn python3-sympy
+{% endhighlight %}
+
+{% highlight unix %}
 sudo apt-get install -y python3-dev python3-pip g++ python3-pygments python3-sphinx libjpeg-dev zlib1g-dev
+{% endhighlight %}
+
+{% highlight unix %}
 sudo pip3 install matplotlib ipython[all] jupyter pandas scikit-image
 {% endhighlight %}
 
