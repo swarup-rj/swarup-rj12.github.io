@@ -37,16 +37,28 @@ ls  -la
 {% endhighlight %}   
 
 #####  Navigating Through Directory
+
+*Forward navigation:*
 {% highlight unix %}
-cd path   /*Forward navigation*/
-cd ..   /*Backward navigation*/
-{% endhighlight %} 
+cd path
+{% endhighlight %}
+
+*Backward navigation:*
+{% highlight unix %}
+cd ..
+{% endhighlight %}  
 
 #####  Directory
+
+*Create directory:*
 {% highlight unix %}
-mkdir directory-name    /*Create directory*/
-rmdir directory-name   /*Delete  directory*/
+mkdir directory-name
 {% endhighlight %}  
+
+*Delete  directory:*
+{% highlight unix %}
+rmdir directory-name
+{% endhighlight %} 
 
 #####  File
 {% highlight unix %}
