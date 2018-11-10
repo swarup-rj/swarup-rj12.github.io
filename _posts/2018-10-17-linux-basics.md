@@ -69,6 +69,7 @@ touch file-name
 *Write in a file:* 
 {% highlight unix %}
 vi file-name
+gedit file-name 
 echo "hi" > filename
 ls >> filename
 {% endhighlight %} 
@@ -291,8 +292,9 @@ sudo groupdel group-name
      Update: sudo apt-get update       
      Upgrade: sudo apt-get upgrade       
      Uninstall: sudo apt-get remove package-name       
-     Uninstall and Remove configuration files: sudo apt-get purge package-name       
-     Install .tar File:  
+     Uninstall and Remove configuration files: 
+        sudo apt-get purge package-name       
+5. Install .tar File:  
     1. Unpack the tar file: tar xvfz 7z.tar.gz      
     2. Navigate to the file: cd file-path      
     3. Read INSTALL or INSTALL.txt or README for compiling process.      
