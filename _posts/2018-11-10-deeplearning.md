@@ -44,8 +44,8 @@ sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/
 ###### Verify the installation by importing them in python3:
 {% highlight unix %}
 python3
->>> import tensorflow as tf
->>> import theano as t
->>> import keras as k
+>>> import tensorflow
+>>> import theano
+>>> import keras
 >>> exit()
 {% endhighlight %}
