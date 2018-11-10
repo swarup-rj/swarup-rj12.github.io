@@ -69,7 +69,7 @@ touch file-name
 
 *Write in a file:* 
 {% highlight unix %}
-gedit file-name
+vi file-name
 echo "hi" > filename
 ls >> filename
 {% endhighlight %} 
@@ -112,7 +112,7 @@ help command
 {% endhighlight %} 
 
 #####  File Permissions
- 1. *Notations-1 (file owner/user: u, group: g, other people: o):*
+ Notations-1 (file owner/user: u, group: g, other people: o):
   
  *Take write permission away from other:* 
  {% highlight unix %} 
@@ -131,7 +131,7 @@ help command
  chmod +w file1
  {% endhighlight %} 
 
-2. * Notations-2 (read:r:4, write:w:2, execute:x:1, no permission:-: 0):*
+ Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0):
 
  *Give everyone all permissions:* 
  {% highlight unix %} 
@@ -145,12 +145,26 @@ help command
 
 
 #####  Compress and Decompress File
+ Notations: c: create, v: view on terminal, f: file option, x: extract
+
+ *Compress/Zip:*
+ {% highlight unix %} 
+ gzip file1
+ {% endhighlight %}
+
+ *Decompress/Unzip:* 
  {% highlight unix %}
- Notations: c: create, v: view on terminal, f: file option, x: extract   
- Compress/Zip: gzip file1   
- Decompress/Unzip: gunzip file1.gz   
- Compress/Tar: tar cvf file.tar file1 file2   
- Decompress/Untar: tar xvf file.tar
+ gunzip file1.gz  
+ {% endhighlight %}
+
+ *Compress/Tar:* 
+ {% highlight unix %}
+ tar cvf file.tar file1 file2  
+ {% endhighlight %}
+  
+ *Decompress/Untar:* 
+ {% highlight unix %}
+ tar xvf file.tar
  {% endhighlight %} 
 
 #####  Network Connections & Proxies
