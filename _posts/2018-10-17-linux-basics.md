@@ -161,26 +161,34 @@ help command
  {% highlight unix %}
  tar cvf file.tar file1 file2  
  {% endhighlight %}
-  
+
  *Decompress/Untar:* 
  {% highlight unix %}
  tar xvf file.tar
  {% endhighlight %} 
 
 #####  Network Connections & Proxies
-{% highlight unix %}
+
 1. Network Configurations:  
 2. Browser Configurations:  
-3. Network Proxy Setting:  
-    Home > network proxy > manual > host:port_no > apply system wide  
-4. Terminal Proxy Setting:  
-    sudo gedit /etc/apt/apt.conf      
-    Edit the file:      
+3. Network Proxy Setting:
+    {% highlight unix %}  
+    Home > network proxy > manual > host:port_no > apply system wide
+    {% endhighlight %}   
+4. Terminal Proxy Setting:
+    
+    *Open the file:*
+    {% highlight unix %}  
+    sudo gedit /etc/apt/apt.conf 
+    {% endhighlight %} 
+
+    *Edit the file:*
+    {% highlight unix %}      
     Acquire::http::proxy "http://username:password@host:port_no/";      
     Acquire::https::proxy "https://username:password@host:port_no/";      
     Acquire::ftp::proxy "ftp://username:password@host:port_no/";      
     Acquire::socks::proxy "socks://username:password@host:port_no/";
-{% endhighlight %} 
+    {% endhighlight %} 
 
 #####  Users
 {% highlight unix %}
