@@ -16,11 +16,11 @@ Ctrl+Alt+T
 
 | Operation | Command |
 |-------|--------|
-Print Working Directory | pwd |
-Create Directory | mkdir directoryname |
-Remove/Delete  Directory | rmdir directoryname | 
-Forward Navigation | cd path |
-Backward Navigation | cd .. |
+Print working directory | pwd |
+Create directory | mkdir directoryname |
+Remove/Delete  directory | rmdir directoryname | 
+Forward navigation | cd path |
+Backward navigation | cd .. |
 | List files in a directory | ls |
 | List files with details | ls -l |
 | List files and hidden files | ls -a |  
@@ -31,6 +31,9 @@ Backward Navigation | cd .. |
 
 #####  File Operations
 
+ Notations: 
+ c: create, v: view on terminal, f: file option, x: extract, f: allows to specify the filename of the archive
+
 | Operation | Command |
 |-------|--------|
 | Create file | touch filename | 
@@ -40,31 +43,15 @@ Backward Navigation | cd .. |
 | Copy from file1 to file2 | cp file1 file2 | 
 | Move/rename from file1 to file2 | mv file1 file2 |  
 | Search in a file | grep phrase filename |    
-| Differences between two files | diff file1 file2 |   
+| Differences between two files | diff file1 file2 | 
+| Compress/Zip a file|  gzip filename |
+| Decompress/Unzip | gunzip filename.gz |  
+| Compress/Tar | tar cvf filename.tar file1 file2 |  
+| Decompress/Untar | tar xvf filename.tar |
+|Create a archive and compress it|tar -czvf archive.tar.gz directoryname|  
 |-------|--------|
 
-#####  Compress and Decompress File
- Notations: c: create, v: view on terminal, f: file option, x: extract
 
- *Compress/Zip:*
- {% highlight unix %} 
- gzip file1
- {% endhighlight %}
-
- *Decompress/Unzip:* 
- {% highlight unix %}
- gunzip file1.gz  
- {% endhighlight %}
-
- *Compress/Tar:* 
- {% highlight unix %}
- tar cvf file.tar file1 file2  
- {% endhighlight %}
-
- *Decompress/Untar:* 
- {% highlight unix %}
- tar xvf file.tar
- {% endhighlight %}
 
 
 #####  Users
