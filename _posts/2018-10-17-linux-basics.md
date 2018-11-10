@@ -63,12 +63,12 @@ ls  -la
 #####  File Operations
 *Create file:* 
 {% highlight unix %}
-touch file-name
+touch filename
 {% endhighlight %} 
 
 *Write in a file:* 
 {% highlight unix %}
-vi file-name
+vi filename
 gedit file-name 
 echo "hi" > filename
 ls >> filename
@@ -91,12 +91,12 @@ mv file1 file2
 
 *Delete file:* 
 {% highlight unix %}
-rm file-name  
+rm filename  
 {% endhighlight %} 
 
 *Search in a file:* 
 {% highlight unix %}
-grep phrase file-name  
+grep phrase filename  
 {% endhighlight %} 
 
 *Differences between two files:* 
@@ -149,17 +149,17 @@ exit
 
 *Add user:* 
 {% highlight unix %}
-sudo useradd user-name
+sudo useradd username
 {% endhighlight %} 
 
 *Add password for user:* 
 {% highlight unix %}
-sudo passwd user-name 
+sudo passwd username 
 {% endhighlight %} 
 
 *Switch user:* 
 {% highlight unix %}
-su user-name  
+su username  
 {% endhighlight %} 
 
 *Identify user:* 
@@ -169,7 +169,7 @@ whoami
 
 *Modify username:* 
 {% highlight unix %}
-sudo usermod -l new-u-n old-u-n
+sudo usermod -l newusername oldusername
 {% endhighlight %} 
 
 *List all user:* 
@@ -179,29 +179,29 @@ getent passwd
 
 *Delete user:* 
 {% highlight unix %}
-sudo userdel user-name
+sudo userdel username
 {% endhighlight %} 
 
 #####  Groups
 
 *Add group:* 
 {% highlight unix %}
-sudo groupadd group-name
+sudo groupadd groupname
 {% endhighlight %}
 
 *Add user to group:* 
 {% highlight unix %}
-sudo gpasswd -a user group-name
+sudo gpasswd -a user groupname
 {% endhighlight %}
 
 *Remove user from group:* 
 {% highlight unix %}
-sudo gpasswd -d user group-name
+sudo gpasswd -d user groupname
 {% endhighlight %}
 
 *Rename a group:* 
 {% highlight unix %}
-sudo groupmod -n new-g-n old-g-n
+sudo groupmod -n newgroupname oldgroupname
 {% endhighlight %}
 
 *List all groups:* 
@@ -211,12 +211,12 @@ sudo cat /etc/group
 
 *Group membership:* 
 {% highlight unix %}
-sudo groups user-name
+sudo groups username
 {% endhighlight %}
 
 *Delete group:* 
 {% highlight unix %}
-sudo groupdel group-name
+sudo groupdel groupname
 {% endhighlight %}
 
 
@@ -289,21 +289,21 @@ sudo groupdel group-name
         3. Boom, its installed.          
 4. Advance Package Tool: apt: command-line  
      Download and compile and install: 
-        sudo apt-get install package-name      
+        sudo apt-get install packagename      
      Update: 
         sudo apt-get update       
      Upgrade: 
         sudo apt-get upgrade       
      Uninstall: 
-        sudo apt-get remove package-name       
+        sudo apt-get remove packagename       
      Uninstall and Remove configuration files: 
-        sudo apt-get purge package-name       
+        sudo apt-get purge packagename       
 5. Install .tar File:  
     1. Unpack the tar file: 
         tar xvfz 7z.tar.gz      
     2. Navigate to the file: 
-        cd file-path      
-    3. Read INSTALL or INSTALL.txt or README for compiling process.      
+        cd filepath      
+    3. Read INSTALL.txt or README for compiling process.      
         
         Classical Steps:       
          1. Ready the tool for compilation: ./configure       
