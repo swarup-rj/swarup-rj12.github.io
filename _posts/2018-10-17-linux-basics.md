@@ -19,9 +19,9 @@ pwd
 {% endhighlight %} 
 
 #####  List Files
-*List files in a directory*
+
 {% highlight unix %}
-ls
+ls #*List files in a directory*
 {% endhighlight %}
 *List files in a directory with details*
 {% highlight unix %}
