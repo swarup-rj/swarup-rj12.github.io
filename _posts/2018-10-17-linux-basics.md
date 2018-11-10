@@ -288,21 +288,27 @@ sudo groupdel group-name
         2. Extract .deb file: sudo dpkg -i package.deb          
         3. Boom, its installed.          
 4. Advance Package Tool: apt: command-line  
-     Download and compile and install: sudo apt-get install package-name      
-     Update: sudo apt-get update       
-     Upgrade: sudo apt-get upgrade       
-     Uninstall: sudo apt-get remove package-name       
+     Download and compile and install: 
+        sudo apt-get install package-name      
+     Update: 
+        sudo apt-get update       
+     Upgrade: 
+        sudo apt-get upgrade       
+     Uninstall: 
+        sudo apt-get remove package-name       
      Uninstall and Remove configuration files: 
         sudo apt-get purge package-name       
 5. Install .tar File:  
-    1. Unpack the tar file: tar xvfz 7z.tar.gz      
-    2. Navigate to the file: cd file-path      
+    1. Unpack the tar file: 
+        tar xvfz 7z.tar.gz      
+    2. Navigate to the file: 
+        cd file-path      
     3. Read INSTALL or INSTALL.txt or README for compiling process.      
-    
-    Classical Steps:       
-     1. Ready the tool for compilation: ./configure       
-     2. Compile & Build the tool: make       
-     3. Load the program: make install  
+        
+        Classical Steps:       
+         1. Ready the tool for compilation: ./configure       
+         2. Compile & Build the tool: make       
+         3. Load the program: make install  
 {% endhighlight %} 
 
 #####  Command Help
