@@ -7,31 +7,31 @@ comments: true
 ---
 
 #####  Terminal (username@host:path)
-*Open terminal*
+*Open terminal:*
 {% highlight unix %}
 Ctrl+Alt+T
 {% endhighlight %}
 
 #####  Print Working Directory 
-*Command (write in terminal)*
+*Command (write in terminal):*
 {% highlight unix %}
 pwd
 {% endhighlight %} 
 
 #####  List Files
-
+*List files in a directory:*
 {% highlight unix %}
-ls #*List files in a directory*
+ls
 {% endhighlight %}
-*List files in a directory with details*
+*List files in a directory with details:*
 {% highlight unix %}
 ls -l
 {% endhighlight %}
-*List files and hidden files in a directory*
+*List files and hidden files in a directory:*
 {% highlight unix %}
 ls -a  
 {% endhighlight %}
-*List everything with all details*
+*List everything with all details:*
 {% highlight unix %}
 ls  -la 
 {% endhighlight %}   
