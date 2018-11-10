@@ -56,57 +56,19 @@ Backward navigation | cd .. |
 
 #####  Users
 
-Superuser is  ROOT 
-
-*Set root password:* 
-{% highlight unix %}
-sudo passwd 
-{% endhighlight %} 
-
-*Login as root:* 
-{% highlight unix %}
-su  
-{% endhighlight %}
-
-*Exit from root:* 
-{% highlight unix %}
-exit  
-{% endhighlight %}
-
-*Add user:* 
-{% highlight unix %}
-sudo useradd username
-{% endhighlight %} 
-
-*Add password for user:* 
-{% highlight unix %}
-sudo passwd username 
-{% endhighlight %} 
-
-*Switch user:* 
-{% highlight unix %}
-su username  
-{% endhighlight %} 
-
-*Identify user:* 
-{% highlight unix %}
-whoami 
-{% endhighlight %} 
-
-*Modify username:* 
-{% highlight unix %}
-sudo usermod -l newusername oldusername
-{% endhighlight %} 
-
-*List all user:* 
-{% highlight unix %}
-getent passwd 
-{% endhighlight %} 
-
-*Delete user:* 
-{% highlight unix %}
-sudo userdel username
-{% endhighlight %} 
+| Operation | Command |
+|-------|--------|
+|Set root (superuser) password | sudo passwd |
+|Login as root | su |  
+|Exit from root | exit |  
+|Add user | sudo useradd username |
+|Add password for user | sudo passwd username | 
+|Switch user | su username |  
+|Identify user | whoami | 
+|Modify username | sudo usermod -l newusername oldusername |
+|List all user | getent passwd | 
+|Delete user | sudo userdel username |
+|-------|--------| 
 
 #####  Groups
 
