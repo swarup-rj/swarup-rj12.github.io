@@ -5,6 +5,41 @@ date: 2018-11-10
 tags: blog
 comments: true
 ---
-###### Goal
-* To automatically extract data from the web and present it in a desired format.
-+ We will discuss a basic example of web scraping where we extract latest stories (headlines) from a news website (Times of India, Guwahati Page). Everything (atleast the text) you see on the web can be extracted ;-) . Refer to [Beautiful soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) documentation for more details.
+*Working on Ubuntu 16.04 (Only CPU) with Python3*
+
+###### Update the Repository:
+{% highlight unix %}
+sudo apt-get update
+{% endhighlight %}
+
+###### Install scipy Stack
+{% highlight unix %}
+sudo apt-get install -y python3-numpy python3-scipy python3-nose python3-h5py python3-skimage python3-matplotlib python3-pandas python3-sklearn python3-sympy
+sudo apt-get install -y python3-dev python3-pip g++ python3-pygments python3-sphinx libjpeg-dev zlib1g-dev
+sudo pip3 install matplotlib ipython[all] jupyter pandas scikit-image
+{% endhighlight %}
+
+###### Install Theano and Keras from PyPI
+{% highlight unix %}
+sudo pip3 install theano
+sudo pip3 install keras
+{% endhighlight %}
+
+*Add specific instructions to .theanorc file, to avoid a glibc bug:*
+{% highlight unix %}
+echo -e "\n[nvcc]\nflags=-D_FORCE_INLINES\n" >> ~/.theanorc
+{% endhighlight %}
+
+###### Install CPU-only version of Tensorflow
+{% highlight unix %}
+sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.9.0-cp35-cp35m-linux_x86_64.whl
+{% endhighlight %}
+
+###### Verify the installation by importing them in python3:
+{% highlight unix %}
+python3
+>>> import tensorflow as tf
+>>> import theano as t
+>>> import keras as k
+>>> exit()
+{% endhighlight %}
