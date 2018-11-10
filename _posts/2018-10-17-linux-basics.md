@@ -18,7 +18,30 @@ Ctrl+Alt+T
 pwd
 {% endhighlight %} 
 
-#####  List Files
+#####  Create and Remove Directory
+
+*Create directory:*
+{% highlight unix %}
+mkdir directory-name
+{% endhighlight %}  
+
+*Remove/Delete  directory:*
+{% highlight unix %}
+rmdir directory-name
+{% endhighlight %}
+
+#####  Navigating Through Directory
+*Forward navigation:*
+{% highlight unix %}
+cd path
+{% endhighlight %}
+
+*Backward navigation:*
+{% highlight unix %}
+cd ..
+{% endhighlight %} 
+
+#####  List Files in a Directory
 *List files in a directory:*
 {% highlight unix %}
 ls
@@ -34,34 +57,10 @@ ls -a
 *List everything with all details:*
 {% highlight unix %}
 ls  -la 
-{% endhighlight %}   
+{% endhighlight %}    
+ 
 
-#####  Navigating Through Directory
-
-*Forward navigation:*
-{% highlight unix %}
-cd path
-{% endhighlight %}
-
-*Backward navigation:*
-{% highlight unix %}
-cd ..
-{% endhighlight %}  
-
-#####  Directory
-
-*Create directory:*
-{% highlight unix %}
-mkdir directory-name
-{% endhighlight %}  
-
-*Delete  directory:*
-{% highlight unix %}
-rmdir directory-name
-{% endhighlight %} 
-
-#####  File
-
+#####  File Operations
 *Create file:* 
 {% highlight unix %}
 touch file-name
@@ -104,46 +103,6 @@ grep phrase file-name
 diff file1 file2  
 {% endhighlight %} 
 
-#####  Command Help
-{% highlight unix %}
-info command 
-
-help command
-{% endhighlight %} 
-
-#####  File Permissions
- Notations-1 (file owner/user: u, group: g, other people: o):
-  
- *Take write permission away from other:* 
- {% highlight unix %} 
- chmod o-w file1
- {% endhighlight %} 
- *Give write permission to other:* 
- {% highlight unix %} 
- chmod o+w file1
- {% endhighlight %} 
- *Take write permission away from file1:* 
- {% highlight unix %} 
- chmod -w file1
- {% endhighlight %}  
- *Give write permission for file1:* 
- {% highlight unix %} 
- chmod +w file1
- {% endhighlight %} 
-
- Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0):
-
- *Give everyone all permissions:* 
- {% highlight unix %} 
- chmod 777 file1   
- {% endhighlight %} 
-
- *u(4+2+1) g(4+1) o(4):*
- {% highlight unix %} 
- chmod 754 file1
- {% endhighlight %} 
-
-
 #####  Compress and Decompress File
  Notations: c: create, v: view on terminal, f: file option, x: extract
 
@@ -165,27 +124,8 @@ help command
  *Decompress/Untar:* 
  {% highlight unix %}
  tar xvf file.tar
- {% endhighlight %} 
+ {% endhighlight %}
 
-#####  Network Connections & Proxies
-{% highlight unix %}
-1. Network Configurations:  
-2. Browser Configurations:  
-3. Network Proxy Setting: 
-
-    Home > network proxy > manual > host:port_no > apply system wide  
-
-4. Terminal Proxy Setting: 
-
-    *Open the file:* 
-    sudo gedit /etc/apt/apt.conf 
-
-    *Include the folowings in the above file:*      
-    Acquire::http::proxy "http://username:password@host:port_no/";      
-    Acquire::https::proxy "https://username:password@host:port_no/";      
-    Acquire::ftp::proxy "ftp://username:password@host:port_no/";      
-    Acquire::socks::proxy "socks://username:password@host:port_no/";
-{% endhighlight %} 
 
 #####  Users
 
@@ -242,15 +182,96 @@ sudo userdel user-name
 {% endhighlight %} 
 
 #####  Groups
+
+*Add group:* 
 {% highlight unix %}
-Add group: sudo groupadd group-name  
-Add user to group: sudo gpasswd -a user group-name  
-Remove user from group: sudo gpasswd -d user group-name  
-Rename a group: sudo groupmod -n new-g-n old-g-n  
-List all groups: sudo cat /etc/group  
-Group membership: sudo groups user-name  
-Delete group: sudo groupdel group-name
+sudo groupadd group-name
+{% endhighlight %}
+
+*Add user to group:* 
+{% highlight unix %}
+sudo gpasswd -a user group-name
+{% endhighlight %}
+
+*Remove user from group:* 
+{% highlight unix %}
+sudo gpasswd -d user group-name
+{% endhighlight %}
+
+*Rename a group:* 
+{% highlight unix %}
+sudo groupmod -n new-g-n old-g-n
+{% endhighlight %}
+
+*List all groups:* 
+{% highlight unix %}
+sudo cat /etc/group
+{% endhighlight %}
+
+*Group membership:* 
+{% highlight unix %}
+sudo groups user-name
+{% endhighlight %}
+
+*Delete group:* 
+{% highlight unix %}
+sudo groupdel group-name
+{% endhighlight %}
+
+
+#####  File Permissions
+ Notations-1 (file owner/user: u, group: g, other people: o):
+  
+ *Take write permission away from other:* 
+ {% highlight unix %} 
+ chmod o-w file1
+ {% endhighlight %} 
+ *Give write permission to other:* 
+ {% highlight unix %} 
+ chmod o+w file1
+ {% endhighlight %} 
+ *Take write permission away from file1:* 
+ {% highlight unix %} 
+ chmod -w file1
+ {% endhighlight %}  
+ *Give write permission for file1:* 
+ {% highlight unix %} 
+ chmod +w file1
+ {% endhighlight %} 
+
+ Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0):
+
+ *Give everyone all permissions:* 
+ {% highlight unix %} 
+ chmod 777 file1   
+ {% endhighlight %} 
+
+ *u(4+2+1) g(4+1) o(4):*
+ {% highlight unix %} 
+ chmod 754 file1
+ {% endhighlight %} 
+ 
+
+#####  Network Connections & Proxies
+{% highlight unix %}
+1. Network Configurations:  
+2. Browser Configurations:  
+3. Network Proxy Setting: 
+
+    Home > network proxy > manual > host:port_no > apply system wide  
+
+4. Terminal Proxy Setting: 
+
+    *Open the file:* 
+    sudo gedit /etc/apt/apt.conf 
+
+    *Include the folowings in the above file:*      
+    Acquire::http::proxy "http://username:password@host:port_no/";      
+    Acquire::https::proxy "https://username:password@host:port_no/";      
+    Acquire::ftp::proxy "ftp://username:password@host:port_no/";      
+    Acquire::socks::proxy "socks://username:password@host:port_no/";
 {% endhighlight %} 
+ 
 
 #####  Install Software 
 {% highlight unix %}
@@ -280,4 +301,11 @@ Delete group: sudo groupdel group-name
      1. Ready the tool for compilation: ./configure       
      2. Compile & Build the tool: make       
      3. Load the program: make install  
+{% endhighlight %} 
+
+#####  Command Help
+{% highlight unix %}
+info command 
+
+help command
 {% endhighlight %} 
