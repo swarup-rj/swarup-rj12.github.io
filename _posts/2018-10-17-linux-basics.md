@@ -10,32 +10,18 @@ comments: true
 *Open terminal:*
 {% highlight unix %}
 Ctrl+Alt+T
-{% endhighlight %}
-
-#####  Print Working Directory 
-*Command (write in terminal):*
-{% highlight unix %}
-pwd
 {% endhighlight %} 
 
-#####  Create and Remove Directory
+#####  Directory Operations
 
 | Operation | Command |
 |-------|--------|
-Create directory | mkdir directoryname |
-Remove/Delete  directory | rmdir directoryname | 
+Print Working Directory | pwd |
+Create Directory | mkdir directoryname |
+Remove/Delete  Directory | rmdir directoryname | 
+Forward Navigation | cd path |
+Backward Navigation | cd .. |
 |-------|--------|
-
-#####  Navigating Through Directory
-*Forward navigation:*
-{% highlight unix %}
-cd path
-{% endhighlight %}
-
-*Backward navigation:*
-{% highlight unix %}
-cd ..
-{% endhighlight %} 
 
 #####  List Files in a Directory
 *List files in a directory:*
