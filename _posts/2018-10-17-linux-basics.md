@@ -106,7 +106,8 @@ diff file1 file2
 
 #####  Command Help
 {% highlight unix %}
-info command  
+info command 
+(OR) 
 help command
 {% endhighlight %} 
 
