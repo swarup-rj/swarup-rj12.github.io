@@ -21,25 +21,12 @@ Create Directory | mkdir directoryname |
 Remove/Delete  Directory | rmdir directoryname | 
 Forward Navigation | cd path |
 Backward Navigation | cd .. |
+| List files in a directory | ls |
+| List files with details | ls -l |
+| List files and hidden files | ls -a |  
+| List everything with all details | ls  -la | 
 |-------|--------|
-
-#####  List Files in a Directory
-*List files in a directory:*
-{% highlight unix %}
-ls
-{% endhighlight %}
-*List files in a directory with details:*
-{% highlight unix %}
-ls -l
-{% endhighlight %}
-*List files and hidden files in a directory:*
-{% highlight unix %}
-ls -a  
-{% endhighlight %}
-*List everything with all details:*
-{% highlight unix %}
-ls  -la 
-{% endhighlight %}    
+  
  
 
 #####  File Operations
