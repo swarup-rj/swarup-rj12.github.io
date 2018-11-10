@@ -20,15 +20,11 @@ pwd
 
 #####  Create and Remove Directory
 
-*Create directory:*
-{% highlight unix %}
-mkdir directoryname
-{% endhighlight %}  
-
-*Remove/Delete  directory:*
-{% highlight unix %}
-rmdir directoryname
-{% endhighlight %}
+| Operation | Command |
+|-------|--------|
+Create directory | mkdir directoryname |
+Remove/Delete  directory | rmdir directoryname | 
+|-------|--------|
 
 #####  Navigating Through Directory
 *Forward navigation:*
