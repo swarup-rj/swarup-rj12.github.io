@@ -30,6 +30,8 @@ Backward Navigation | cd .. |
  
 
 #####  File Operations
+| Operation | Command |
+|-------|--------|
 | Create file | touch filename | 
 | Delete file | rm filename |
 | Write in a file | vim filename, gedit file-name | 
@@ -38,6 +40,7 @@ Backward Navigation | cd .. |
 | Move/rename from file1 to file2 | mv file1 file2 |  
 | Search in a file | grep phrase filename |    
 | Differences between two files | diff file1 file2 |   
+|-------|--------|
 
 #####  Compress and Decompress File
  Notations: c: create, v: view on terminal, f: file option, x: extract
