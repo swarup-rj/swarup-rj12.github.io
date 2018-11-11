@@ -136,26 +136,48 @@ Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0)
         3. Boom, its installed.          
 4. Advance Package Tool: apt: command-line  
      Download and compile and install: 
-        sudo apt-get install packagename      
+
+        sudo apt-get install packagename  
+
      Update: 
-        sudo apt-get update       
+
+        sudo apt-get update   
+
      Upgrade: 
-        sudo apt-get upgrade       
+
+        sudo apt-get upgrade  
+
      Uninstall: 
-        sudo apt-get remove packagename       
+
+        sudo apt-get remove packagename 
+
      Uninstall and Remove configuration files: 
-        sudo apt-get purge packagename       
+
+        sudo apt-get purge packagename  
+
 5. Install .tar File:  
     1. Unpack the tar file: 
-        tar xvfz 7z.tar.gz      
+
+        tar xvfz 7z.tar.gz  
+
     2. Navigate to the file: 
-        cd filepath      
+
+        cd filepath   
+
     3. Read INSTALL.txt or README for compiling process.      
         
         Classical Steps:       
-         1. Ready the tool for compilation: ./configure       
-         2. Compile & Build the tool: make       
-         3. Load the program: make install   
+         1. Ready the tool for compilation: 
+
+            ./configure  
+
+         2. Compile & Build the tool: 
+
+            make
+
+         3. Load the program: 
+
+            make install   
 
 #####  Working with Remote Server: Secure SHell(SSH)
 
