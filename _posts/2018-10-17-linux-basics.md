@@ -110,17 +110,19 @@ Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0)
 4. Terminal Proxy Setting: 
 
     *Open the file:* 
-    sudo gedit /etc/apt/apt.conf 
 
-    *Include the folowings in the above file:*      
-    Acquire::http::proxy "http://username:password@host:port_no/";      
-    Acquire::https::proxy "https://username:password@host:port_no/";      
-    Acquire::ftp::proxy "ftp://username:password@host:port_no/";      
-    Acquire::socks::proxy "socks://username:password@host:port_no/";
+        sudo gedit /etc/apt/apt.conf 
+
+    *Include the folowings in the above file:*  
+
+        Acquire::http::proxy "http://username:password@host:port_no/";      
+        Acquire::https::proxy "https://username:password@host:port_no/";      
+        Acquire::ftp::proxy "ftp://username:password@host:port_no/";      
+        Acquire::socks::proxy "socks://username:password@host:port_no/";
  
 
 #####  Install Software 
-{% highlight unix %}
+
 1. Ubuntu Software Centre  
 2. Synaptic Package Manager  
 3. Install .deb(debian applications for Linux) File:  
@@ -153,8 +155,7 @@ Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0)
         Classical Steps:       
          1. Ready the tool for compilation: ./configure       
          2. Compile & Build the tool: make       
-         3. Load the program: make install  
-{% endhighlight %} 
+         3. Load the program: make install   
 
 #####  Working with Remote Server: Secure SHell(SSH)
 
@@ -183,15 +184,15 @@ Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0)
 
 #### Working with Remote Server: Secure Copy (SCP)) :
     
-*Secure Copy a File from Local host to a Remote host:*
-{% highlight unix %}
-scp filename.txt username@remotehost:path
-{% endhighlight %}
+1. *Secure Copy a File from Local host to a Remote host:*
+    {% highlight unix %}
+    scp filename.txt username@remotehost:path
+    {% endhighlight %}
 
-*Secure Copy a File from Local host to Home Directory on Remote Host:* 
-{% highlight unix %}
-scp filename.txt username@remotehost:~
-{% endhighlight %}
+2. *Secure Copy a File from Local host to Home Directory on Remote Host:* 
+    {% highlight unix %}
+    scp filename.txt username@remotehost:~
+    {% endhighlight %}
 
 *Secure Copy Multiple Files from Local host to a Remote host:*
 {% highlight unix %}
