@@ -16,11 +16,11 @@ Ctrl+Alt+T
 
 | Operation | Command |
 |-------|--------|
-Print working directory | pwd |
-Create directory | mkdir directoryname |
-Remove/Delete  directory | rmdir directoryname | 
-Forward navigation | cd path |
-Backward navigation | cd .. |
+|Print working directory | pwd |
+|Create directory | mkdir directoryname |
+|Remove/Delete  directory | rmdir directoryname | 
+|Forward navigation | cd path |
+|Backward navigation | cd .. |
 | List files in a directory | ls |
 | List files with details | ls -l |
 | List files and hidden files | ls -a |  
