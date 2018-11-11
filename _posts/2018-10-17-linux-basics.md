@@ -184,12 +184,12 @@ Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0)
 
 #### Working with Remote Server: Secure Copy (SCP)) :
     
-1. *Secure Copy a File from Local host to a Remote host:*
+*Secure Copy a File from Local host to a Remote host:*
     {% highlight unix %}
     scp filename.txt username@remotehost:path
     {% endhighlight %}
 
-2. *Secure Copy a File from Local host to Home Directory on Remote Host:* 
+*Secure Copy a File from Local host to Home Directory on Remote Host:* 
     {% highlight unix %}
     scp filename.txt username@remotehost:~
     {% endhighlight %}
