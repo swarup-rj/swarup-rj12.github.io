@@ -120,64 +120,7 @@ Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0)
         Acquire::ftp::proxy "ftp://username:password@host:port_no/";      
         Acquire::socks::proxy "socks://username:password@host:port_no/";
  
-
-#####  Install Software 
-
-1. Ubuntu Software Centre  
-2. Synaptic Package Manager  
-3. Install .deb(debian applications for Linux) File:  
-    1. 1st Way:      
-        1. Download the file.          
-        2. Double click > opens in ubuntu software centre.          
-        3. Click install.          
-    2. 2nd Way:      
-        1. Navigate to the directory where .deb file is.          
-        2. Extract .deb file: sudo dpkg -i package.deb          
-        3. Boom, its installed.          
-4. Advance Package Tool: apt: command-line  
-     Download and compile and install: 
-
-        sudo apt-get install packagename  
-
-     Update: 
-
-        sudo apt-get update   
-
-     Upgrade: 
-
-        sudo apt-get upgrade  
-
-     Uninstall: 
-
-        sudo apt-get remove packagename 
-
-     Uninstall and Remove configuration files: 
-
-        sudo apt-get purge packagename  
-
-5. Install .tar File:  
-    1. Unpack the tar file: 
-
-        tar xvfz 7z.tar.gz  
-
-    2. Navigate to the file: 
-
-        cd filepath   
-
-    3. Read INSTALL.txt or README for compiling process.      
-        
-        Classical Steps:       
-         1. Ready the tool for compilation: 
-
-            ./configure  
-
-         2. Compile & Build the tool: 
-
-            make
-
-         3. Load the program: 
-
-            make install   
+  
 
 #####  Working with Remote Server: Secure SHell(SSH)
 
@@ -245,6 +188,65 @@ scp username@remotehost:~/\{file1.txt,file2.txt\}
 {% highlight unix %}
 scp username@rh1:path/filename.txt \username@rh2:path/
 {% endhighlight %}
+
+
+#####  Install Software 
+
+1. Ubuntu Software Centre  
+2. Synaptic Package Manager  
+3. Install .deb(debian applications for Linux) File:  
+    1. 1st Way:      
+        1. Download the file.          
+        2. Double click > opens in ubuntu software centre.          
+        3. Click install.          
+    2. 2nd Way:      
+        1. Navigate to the directory where .deb file is.          
+        2. Extract .deb file: sudo dpkg -i package.deb          
+        3. Boom, its installed.          
+4. Advance Package Tool: apt: command-line  
+     Download and compile and install: 
+
+        sudo apt-get install packagename  
+
+     Update: 
+
+        sudo apt-get update   
+
+     Upgrade: 
+
+        sudo apt-get upgrade  
+
+     Uninstall: 
+
+        sudo apt-get remove packagename 
+
+     Uninstall and Remove configuration files: 
+
+        sudo apt-get purge packagename  
+
+5. Install .tar File:  
+    1. Unpack the tar file: 
+
+            tar xvfz 7z.tar.gz  
+
+    2. Navigate to the file: 
+
+            cd filepath   
+
+    3. Read INSTALL.txt or README for compiling process.      
+        
+        Classical Steps:       
+         1. Ready the tool for compilation: 
+
+                ./configure  
+
+         2. Compile & Build the tool: 
+
+                make
+
+         3. Load the program: 
+
+                make install 
 
 #####  Command Help
 {% highlight unix %}
