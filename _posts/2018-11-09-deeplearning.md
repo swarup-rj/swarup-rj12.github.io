@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning Setup with Python3: CPU Only"
 layout: post
-date: 2018-11-10
+date: 2018-11-09
 tags: blog
 comments: true
 ---
