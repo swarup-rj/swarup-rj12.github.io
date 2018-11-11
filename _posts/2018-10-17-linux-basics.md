@@ -100,7 +100,7 @@ Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0)
 |-------|--------|  
 
 #####  Network Connections & Proxies
-{% highlight unix %}
+
 1. Network Configurations:  
 2. Browser Configurations:  
 3. Network Proxy Setting: 
@@ -117,7 +117,6 @@ Notations-2 (read(r): 4, write(w): 2, execute(x):1, no permission(-): 0)
     Acquire::https::proxy "https://username:password@host:port_no/";      
     Acquire::ftp::proxy "ftp://username:password@host:port_no/";      
     Acquire::socks::proxy "socks://username:password@host:port_no/";
-{% endhighlight %} 
  
 
 #####  Install Software 
