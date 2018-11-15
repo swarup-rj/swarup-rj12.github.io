@@ -5,8 +5,6 @@ title: About me
 
 <p><h1>About me</h1></p>
 
-Download my [resume](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
-
 ___
 
 I am interested in the research work related to machine learning, data mining and application of these techniques. 
@@ -26,4 +24,6 @@ In addition, I do a lot of side projects that push my boundaries or teach me som
 For example, Community detection using greedy clique and plex algorithm where I implemented the existing Greedy Clique Algorithm (GCE) for community detection which uses cliques as seeds. Further I proposed a novel Greedy Plex Algorithm, a variant of GCE which uses plexes in place of cliques.
 
 
-**[Last updated: October 16, 2018]**
+Download my [resume](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
+
+**[Last updated: November 15, 2018]**
