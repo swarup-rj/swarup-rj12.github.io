@@ -5,11 +5,11 @@ title: CV
 
 [Curriculum Vitae (PDF)](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
 
-#### Research Interests
+### Research Interests
 
 Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
-#### Education
+### Education
 
 | Degree | Department | Institution | Duration |
 |:-------:|:--------:|:--------:|:--------:|
@@ -20,7 +20,7 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 *CSE: Computer Science and Engineering*
 
-#### Grants and Fellowships
+### Grants and Fellowships
 
 | Scholarship/Fellowship | Duration |
 |:-------:|:--------:|
@@ -31,7 +31,7 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 |Elementary Scholarship| 1996 - 1997 |
 |-------|--------|
 
-#### Teaching Experience
+### Teaching Experience
 
 *Teaching Assistant, Department of CSE, IIT Guwahati*
 
