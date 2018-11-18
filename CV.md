@@ -24,7 +24,6 @@ MHRD Fellowship for MTech, 2013 - 2015
 
 | Duration | Details |
 |-------|--------|
-
 | July 2018 to Dec 2018 | Software Engineering, Department of CSE, IIT Guwahati |
 |  2018 to June 2018 | Computing Lab, Department of CSE, IIT Guwahati | 
 |  2017 to Dec 2017 | Design and Analysis of Algorithms, Department of CSE, IIT Guwahati | 
