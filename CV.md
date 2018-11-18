@@ -22,7 +22,7 @@ MHRD Fellowship for MTech, 2013 - 2015
 
 #### Teaching Experience
 
-* Teaching Assistant, Department of CSE, IIT Guwahati  *
+*Teaching Assistant, Department of CSE, IIT Guwahati*
 
 | Duration | Course |
 |-------|--------|
