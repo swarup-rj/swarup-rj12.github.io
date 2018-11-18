@@ -11,12 +11,12 @@ import pandas as pd
 data = pd.read_csv('/Users/swarupranjanbehera/Documents/GitHub/swarup-rj.github.io/assets/data/data_science_skills.csv')
 
 # Subset to languages
-languages = data[data.Skill == 'Programming languages'].iloc[::-1]
+languages = data[data.Skill == 'Data & Analaysis'].iloc[::-1]
 
 # Barplot
 plt.figure(figsize=(5,5.5))
 plt.barh(languages.Name, languages.Proficiency)
-plt.suptitle('Programming proficiency', fontsize=20, y=1.01)
+plt.suptitle('Data & Analaysis', fontsize=20, y=1.01)
 plt.title('1 = Beginner, 5 = Intermediate, 10 = Expert', fontsize=11, y=1.01)
 plt.gca().spines['right'].set_color('none')
 plt.gca().spines['top'].set_color('none')
