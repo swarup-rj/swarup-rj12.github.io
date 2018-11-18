@@ -20,7 +20,7 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 *CSE: Computer Science and Engineering*
 
-#### Awards and Honors
+#### Grants and Fellowships
 
 | Scholarship/Fellowship | Duration |
 |:-------:|:--------:|
