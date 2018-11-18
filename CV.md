@@ -51,9 +51,3 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 |-------|--------|--------|
 
 *(1): January to June and (2): July to December*
-
-### Technical Skills
-
-![Programming Proficiency](/assets/images/prog.png "Programming Proficiency")
-
-![Data & Analaysis Proficiency](/assets/images/data.png "Data & Analaysis Proficiency")
