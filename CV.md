@@ -54,4 +54,6 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 ### Technical Skills
 
-![Programming Proficiency](/assets/images/programming.png "Programming Proficiency")
+![Programming Proficiency](/assets/images/prog.png "Programming Proficiency")
+
+![Data & Analaysis Proficiency](/assets/images/data.png "Data & Analaysis Proficiency")
