@@ -20,19 +20,21 @@ B.Tech. Computer Science and Engineering, VSSUT Burla, India, 2008 - 2012
 MHRD Fellowship for PhD, 2015 - present  
 MHRD Fellowship for MTech, 2013 - 2015
 
-#### Teaching Experience (Teaching Assistant)
+#### Teaching Experience
+
+* Teaching Assistant, Department of CSE, IIT Guwahati  *
 
 | Duration | Details |
 |-------|--------|
-| July - Dec 2018 | Software Engineering, Department of CSE, IIT Guwahati |
-| Jan - June 2018 | Computing Lab, Department of CSE, IIT Guwahati | 
-| July - Dec 2017 | Design and Analysis of Algorithms, Department of CSE, IIT Guwahati | 
-| Jan - June 2017 | Computing Lab, Department of CSE, IIT Guwahati | 
-| July - Dec 2016 | Computer Vision using Machine Learning, Department of CSE, IIT Guwahati | 
-| Jan - June 2016 | Database Lab, Department of CSE, IIT Guwahati | 
-| July - Dec 2015 | Discrete Mathematics, Department of CSE, IIT Guwahati | 
-| Jan - June 2015 | Database Lab, Department of CSE, IIT Guwahati | 
-| July - Dec 2014 | Data Structures Lab, Department of CSE, IIT Guwahati |
-| Jan - June 2014 | Probability and Linear Algebra, Department of CSE, IIT Guwahati |
-| July - Dec 2013 | Data Communication, Department of CSE, IIT Guwahati |
+| July - Dec 2018 | Software Engineering |
+| Jan - June 2018 | Computing Lab | 
+| July - Dec 2017 | Design and Analysis of Algorithms | 
+| Jan - June 2017 | Computing Lab | 
+| July - Dec 2016 | Computer Vision using Machine Learning | 
+| Jan - June 2016 | Database Lab | 
+| July - Dec 2015 | Discrete Mathematics | 
+| Jan - June 2015 | Database Lab | 
+| July - Dec 2014 | Data Structures Lab |
+| Jan - June 2014 | Probability and Linear Algebra |
+| July - Dec 2013 | Data Communication |
 |-------|--------|
