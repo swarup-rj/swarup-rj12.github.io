@@ -11,9 +11,12 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 #### Education
 
+| Course | Duration |
+|-------|--------|
 Ph.D. Computer Science and Engineering, IIT Guwahati, India, 2015 - present
 M.Tech. Computer Science and Engineering, IIT Guwahati, India, 2013 - 2015 
 B.Tech. Computer Science and Engineering, VSSUT Burla, India, 2008 - 2012
+|-------|--------|
 
 #### Awards and Honors
 
@@ -21,16 +24,16 @@ B.Tech. Computer Science and Engineering, VSSUT Burla, India, 2008 - 2012
 |-------|--------|
 |MHRD Fellowship for PhD | 2015 - present | 
 |MHRD Fellowship for MTech | 2013 - 2015 |
-|National Rural Talent Scholarship| 2001-2004 |
-|Elementary Scholarship| 1996 |
-|Primary Scholarship| 1998 |
+|National Rural Talent Scholarship| 2001 - 2004 |
+|Elementary Scholarship| 1996 - 1997 |
+|Primary Scholarship| 1998 - 1999 |
 |-------|--------|
 
 #### Teaching Experience
 
 *Teaching Assistant, Department of CSE, IIT Guwahati*
 
-| Course | Duration |
+| Subject | Duration |
 |-------|--------|
 | Software Engineering | July 2018 - Dec 2018 | 
 | Computing Lab | Jan 2018 - June 2018 | 
