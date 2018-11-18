@@ -12,8 +12,7 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 #### Education
 
 | Course | Department | College | Duration |
-|-------|--------|--------|--------|
-|     :---:      |     :---:      |     :---:      |     :---:      |
+|:-------:|:--------:|:--------:|:--------:|
 | Ph.D. | CSE | [IIT Guwahati](https://www.iitg.ac.in), India | 2015 - present | 
 | M.Tech. | CSE | [IIT Guwahati](https://www.iitg.ac.in), India |  2013 - 2015 |  
 | B.Tech. | CSE | [VSSUT Burla](http://www.vssut.ac.in), India | 2008 - 2012 | 
@@ -22,8 +21,7 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 #### Awards and Honors
 
 | Scholarship/Fellowship | Duration |
-|-------|--------|
-|     :---:      |     :---:      |
+|:-------:|:--------:|
 |MHRD Fellowship for PhD | 2015 - present | 
 |MHRD Fellowship for MTech | 2013 - 2015 |
 |National Rural Talent Scholarship| 2001 - 2004 |
@@ -36,8 +34,7 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 *Teaching Assistant, Department of CSE, IIT Guwahati*
 
 | Subject | Duration |
-|-------|--------|
-|     :---:      |     :---:      |
+|:-------:|:--------:|
 | Software Engineering | July 2018 - Dec 2018 | 
 | Computing Lab | Jan 2018 - June 2018 | 
 | Design and Analysis of Algorithms | July 2017 - Dec 2017 | 
