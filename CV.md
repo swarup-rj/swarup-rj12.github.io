@@ -11,7 +11,7 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 #### Education
 
-| Course | Department | College | Duration |
+| Course | Department | Institution | Duration |
 |:-------:|:--------:|:--------:|:--------:|
 | Ph.D. | CSE | [IIT Guwahati](https://www.iitg.ac.in), India | 2015 - present | 
 | M.Tech. | CSE | [IIT Guwahati](https://www.iitg.ac.in), India |  2013 - 2015 |  
