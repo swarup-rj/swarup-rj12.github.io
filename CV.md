@@ -20,7 +20,7 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 #### Awards and Honors
 
-| Awards | Duration |
+| Scholarship/Fellowship | Duration |
 |-------|--------|
 |MHRD Fellowship for PhD | 2015 - present | 
 |MHRD Fellowship for MTech | 2013 - 2015 |
