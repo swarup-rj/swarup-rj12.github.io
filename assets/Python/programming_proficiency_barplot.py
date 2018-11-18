@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Import data
-data = pd.read_csv('~/Documents/GitHub/rgriff23.github.io/assets/data/data_science_skills.csv')
+data = pd.read_csv('/Users/swarupranjanbehera/Documents/GitHub/swarup-rj.github.io/assets/data/data_science_skills.csv')
 
 # Subset to languages
 languages = data[data.Skill == 'Programming languages'].iloc[::-1]
@@ -23,3 +23,4 @@ plt.gca().spines['top'].set_color('none')
 plt.gca().spines['bottom'].set_color('none')
 plt.gca().spines['left'].set_color('none')
 plt.gca().tick_params(axis=u'both', which=u'both', length=0)
+plt.show()
