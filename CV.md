@@ -17,7 +17,7 @@ B.Tech. Computer Science and Engineering, VSSUT Burla, India, 2008 - 2012
 
 #### Awards and Honors
 
-MHRD Fellowship for PhD, 2015 - present
+MHRD Fellowship for PhD, 2015 - present  
 MHRD Fellowship for MTech, 2013 - 2015
 
 #### Teaching Experience (Teaching Assistant)
