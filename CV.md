@@ -24,17 +24,17 @@ MHRD Fellowship for MTech, 2013 - 2015
 
 * Teaching Assistant, Department of CSE, IIT Guwahati  *
 
-| Duration | Details |
+| Duration | Course |
 |-------|--------|
-| July - Dec 2018 | Software Engineering |
-| Jan - June 2018 | Computing Lab | 
-| July - Dec 2017 | Design and Analysis of Algorithms | 
-| Jan - June 2017 | Computing Lab | 
-| July - Dec 2016 | Computer Vision using Machine Learning | 
-| Jan - June 2016 | Database Lab | 
-| July - Dec 2015 | Discrete Mathematics | 
-| Jan - June 2015 | Database Lab | 
-| July - Dec 2014 | Data Structures Lab |
-| Jan - June 2014 | Probability and Linear Algebra |
-| July - Dec 2013 | Data Communication |
+| July 2018 - Dec 2018 | Software Engineering |
+| Jan 2018 - June 2018 | Computing Lab | 
+| July 2017 - Dec 2017 | Design and Analysis of Algorithms | 
+| Jan 2017 - June 2017 | Computing Lab | 
+| July 2016 - Dec 2016 | Computer Vision using Machine Learning | 
+| Jan 2016 - June 2016 | Database Lab | 
+| July 2015 - Dec 2015 | Discrete Mathematics | 
+| Jan 2015 - June 2015 | Database Lab | 
+| July 2014 - Dec 2014 | Data Structures Lab |
+| Jan 2014 - June 2014 | Probability and Linear Algebra |
+| July 2013 - Dec 2013 | Data Communication |
 |-------|--------|
