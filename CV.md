@@ -11,12 +11,14 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 #### Education
 
-| Course | Department | Institution | Duration |
+| Degree | Department | Institution | Duration |
 |:-------:|:--------:|:--------:|:--------:|
 | Ph.D. | CSE | [IIT Guwahati](https://www.iitg.ac.in), India | 2015 - present | 
 | M.Tech. | CSE | [IIT Guwahati](https://www.iitg.ac.in), India |  2013 - 2015 |  
 | B.Tech. | CSE | [VSSUT Burla](http://www.vssut.ac.in), India | 2008 - 2012 | 
 |-------|--------|--------|--------|
+
+*CSE: Computer Science and Engineering*
 
 #### Awards and Honors
 
@@ -33,17 +35,19 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 *Teaching Assistant, Department of CSE, IIT Guwahati*
 
-| Subject | Duration |
-|:-------:|:--------:|
-| Software Engineering | July 2018 - Dec 2018 | 
-| Computing Lab | Jan 2018 - June 2018 | 
-| Design and Analysis of Algorithms | July 2017 - Dec 2017 | 
-| Computing Lab | Jan 2017 - June 2017 | 
-| Computer Vision using Machine Learning | July 2016 - Dec 2016 | 
-| Database Lab | Jan 2016 - June 2016 | 
-| Discrete Mathematics | July 2015 - Dec 2015 | 
-| Database Lab | Jan 2015 - June 2015 | 
-| Data Structures Lab | July 2014 - Dec 2014 | 
-| Probability and Linear Algebra | Jan 2014 - June 2014 | 
-| Data Communication | July 2013 - Dec 2013 | 
-|-------|--------|
+| Course | Duration | Instructor |
+|:-------:|:--------:|:--------:|
+| Software Engineering | 2018(2) | Dr. V. Vijaya Saradhi | 
+| Computing Lab | 2018(1) | Dr. Ashish Anand |
+| Design and Analysis of Algorithms | 2017(2) | Dr. Sushanta Karmakar |
+| Computing Lab | 2017(1) | Dr. V. Vijaya Saradhi |
+| Computer Vision using Machine Learning | 2016(2) | Dr. Arijit Sur |
+| Database Lab | 2016(1) | Dr. V. Vijaya Saradhi |
+| Discrete Mathematics | 2015(2) | Dr. Benny George K. |
+| Database Lab | 2015(1) | Dr. V. Vijaya Saradhi |
+| Data Structures Lab | 2014(2) | Dr. Arnab Sarkar |
+| Probability and Linear Algebra | 2014(1) | Dr. Ashish Anand |
+| Data Communication | 2013(2) | Dr. T. Venkatesh |
+|-------|--------|--------|
+
+*(1): January to June and (2): July to December*
