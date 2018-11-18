@@ -7,7 +7,7 @@ title: CV
 
 #### Research Interests
 
-Short Text Mining, Sport Analytics, Natural Language Processing, Machine Learning
+Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 #### Education
 
