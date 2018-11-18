@@ -23,7 +23,4 @@ Spectral clustering using convex and constrained settings, where I proposed a fr
 In addition, I do a lot of side projects that push my boundaries or teach me something new. 
 For example, Community detection using greedy clique and plex algorithm where I implemented the existing Greedy Clique Algorithm (GCE) for community detection which uses cliques as seeds. Further I proposed a novel Greedy Plex Algorithm, a variant of GCE which uses plexes in place of cliques.
 
-
-Download my [resume](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
-
-**[Last updated: November 15, 2018]**
+**[Last updated: November 19, 2018]**
