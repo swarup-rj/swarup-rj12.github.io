@@ -13,9 +13,9 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 | Course | Department | College | Duration |
 |-------|--------|--------|--------|
-| Ph.D. | Computer Science and Engineering | IIT Guwahati, India | 2015 - present | 
-| M.Tech. | Computer Science and Engineering | IIT Guwahati, India |  2013 - 2015 |  
-| B.Tech. | Computer Science and Engineering | VSSUT Burla, India | 2008 - 2012 | 
+| Ph.D. | CSE | [IIT Guwahati](https://www.iitg.ac.in), India | 2015 - present | 
+| M.Tech. | CSE | [IIT Guwahati](https://www.iitg.ac.in), India |  2013 - 2015 |  
+| B.Tech. | CSE | [VSSUT Burla](http://www.vssut.ac.in), India | 2008 - 2012 | 
 |-------|--------|--------|--------|
 
 #### Awards and Honors
