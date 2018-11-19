@@ -54,8 +54,19 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 *(1): January to June and (2): July to December*
 
 
-### Extra Curriculars
+### Achievements
 
-1. Core member of PG Cultural Board and Event management team, Advaya 2014 (PG cultural fest) at IIT Guwahati.
-2. Best Departmental Act Award, Advaya 2014 (PG cultural fest) at IIT Guwahati.
-3. Gold medal for Short movie making, Arise & Awake 2012 (Film Festival) at VSSUT, Burla
+*Academic:*
+
+1. Attended the ICVGIP Conference 2016 at IIT Guwahati.
+2. Completed national workshop on GPU programming and applications 2014, at IIT Guwahati.
+3. Secured third position in codezam, in Srujan 2011 at VSSUT, Burla.
+4. Completed workshop on Robobeam 2009, at VSSUT, Burla.
+
+*Extra Curricular:*
+
+1. Organizer in ICVGIP Conference 2016 at IIT Guwahati.
+2. Event organizer in Advaya 2015, PG cultural fest. at IIT Guwahati.
+3. Technical officer in the Student Gymkhana Council 2014-2015 at IIT Guwahati.
+4. Best departmental act award in Advaya 2014, PG cultural fest. at IIT Guwahati.
+5. Gold medal for short movie making in Arise and Awake 2012, Film fest. at VSSUT, Burla.
