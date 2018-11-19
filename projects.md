@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-### Research
+### Research Projects
 
 ##### *Active*
 
@@ -15,14 +15,20 @@ Central idea is to mine strength and weakness rules using short text commentary 
 1. Spectral clustering using convex and constrained settings:  
 Proposed a framework to incorporate pairwise constraints in to semidefinite spectral clustering. 
 Further extended it from passive to active and self taught learning settings.
-2. A novel Ontology based Entity Relationship model:  
+
+##### *Inactive* 
+1. A novel Ontology based Entity Relationship model:  
 A comprehensive study of Entity Relationship model was done. 
 Its limitations were explored and a novel Ontology Based Entity Relationship model was proposed.
 
+
 ### Course Projects
+
 1. Community detection using greedy clique and plex algorithm:  
- Implemented the existing Greedy Clique Algorithm (GCE) for community detection which uses cliques as seeds. Further proposed a novel Greedy Plex Algorithm, a variant of GCE which uses plexes in place of cliques.
-2. Search Engine for Information Retrieval  
+ Implemented the existing Greedy Clique Algorithm (GCE) for community detection which uses cliques as seeds. Further proposed a novel Greedy Plex Algorithm, a variant of GCE which uses plexes in place of cliques. Used C++ and UCINET tool.
+
+2. Search Engine for Information Retrieval:
+A web search Engine which searches for 1.2 million (27GB) webpages using page-rank algorithm and  suffix array data structure. Used Python, HTML, PHP and JavaScript.  
 
 ### Public datasets
 

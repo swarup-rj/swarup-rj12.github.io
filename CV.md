@@ -11,7 +11,7 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 ### Education
 
-| Degree | Department | Institution | CPI |Duration |
+| Degree | Department | Institution | CPI | Years |
 |:-------:|:--------:|:--------:|:--------:|:--------:|
 | Ph.D. | CSE | [IIT Guwahati](https://www.iitg.ac.in)| - | 2015 - present | 
 | M.Tech. | CSE | [IIT Guwahati](https://www.iitg.ac.in)| 7.99 |  2013 - 2015 |  
@@ -52,3 +52,10 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 |-------|--------|--------|
 
 *(1): January to June and (2): July to December*
+
+
+### Extra Curriculars
+
+1. Core member of PG Cultural Board and Event management team, Advaya 2014 (PG cultural fest) at IIT Guwahati.
+2. Best Departmental Act Award, Advaya 2014 (PG cultural fest) at IIT Guwahati.
+3. Gold medal for Short movie making, Arise & Awake 2012 (Film Festival) at VSSUT, Burla
