@@ -5,6 +5,8 @@ title: CV
 
 [Curriculum Vitae (PDF)](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
 
+[Every Course I have Ever Taken (PDF)](https://swarup-rj.github.io/assets/pdfs/course.pdf)
+
 ### Research Interests
 
 Short Text Mining, Sport Analytics, Data Mining, Machine Learning
