@@ -26,9 +26,10 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 |:-------:|:--------:|
 |MHRD Fellowship for PhD | 2015 - present | 
 |MHRD Fellowship for MTech | 2013 - 2015 |
-|National Rural Talent Scholarship| 2001 - 2004 |
-|Primary Scholarship| 1998 - 1999 |
-|Elementary Scholarship| 1996 - 1997 |
+|State Government Scholarship | 2008 - 2012 |
+|National Rural Talent Scholarship | 2001 - 2004 |
+|Primary Scholarship | 1998 - 1999 |
+|Elementary Scholarship | 1996 - 1997 |
 |-------|--------|
 
 ### Teaching Experience
