@@ -6,6 +6,7 @@ title: CV
 [Curriculum Vitae (PDF)](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
 
 [Every course I have ever taken (PDF)](https://swarup-rj.github.io/assets/pdfs/course.pdf)
+[Every Course I Have Ever Taken](https://docs.google.com/spreadsheets/d/1WmSOsk2sekjooDfWfCsbxnCBYaI4FS7DafxIaHO6NPk/edit?usp=sharing)
 
 ### Research Interests
 
@@ -72,4 +73,4 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 2. Event organizer in Advaya 2015, PG cultural fest. at IIT Guwahati.
 3. Technical officer in the Student Gymkhana Council 2014-2015 at IIT Guwahati.
 4. Best departmental act award in Advaya 2014, PG cultural fest. at IIT Guwahati.
-5. Gold medal for short movie making in Arise and Awake 2012, Film fest. at VSSUT, Burla.
+5. Gold medal for short movie making in Arise and Awake 2012, Film Festival at VSSUT, Burla.
