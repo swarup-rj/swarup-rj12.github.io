@@ -40,6 +40,7 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 | Course | Duration | Instructor |
 |:-------:|:--------:|:--------:|
+| Computing Lab | 2019(1) | Dr. V. Vijaya Saradhi |
 | Software Engineering | 2018(2) | Dr. V. Vijaya Saradhi | 
 | Computing Lab | 2018(1) | Dr. Ashish Anand |
 | Design and Analysis of Algorithms | 2017(2) | Dr. Sushanta Karmakar |
