@@ -5,7 +5,6 @@ title: CV
 
 [Curriculum Vitae (PDF)](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
 
-[Every course I have ever taken (PDF)](https://swarup-rj.github.io/assets/pdfs/course.pdf)
 [Every Course I Have Ever Taken](https://docs.google.com/spreadsheets/d/1WmSOsk2sekjooDfWfCsbxnCBYaI4FS7DafxIaHO6NPk/edit?usp=sharing)
 
 ### Research Interests
