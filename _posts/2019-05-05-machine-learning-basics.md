@@ -63,7 +63,7 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+![png](/assets/images/output_7_0.png)
 
 
 The above graph shows relationship between the sepal length and width. Now we will check relationship between the petal length and width.
@@ -82,7 +82,7 @@ plt.show()
 ```
 
 
-![png](output_9_0.png)
+![png](/assets/images/output_9_0.png)
 
 
 As we can see that the Petal Features are giving a better cluster division compared to the Sepal features. This is an indication that the Petals can help in better and accurate Predictions over the Sepal. We will check that later.
@@ -98,7 +98,7 @@ plt.show()
 ```
 
 
-![png](output_12_0.png)
+![png](/assets/images/output_12_0.png)
 
 
 ### Now let us see how the length and width vary according to the species
@@ -128,7 +128,7 @@ sns.violinplot(x='Species',y='SepalWidthCm',data=iris)
 
 
 
-![png](output_14_2.png)
+![png](/assets/images/output_14_2.png)
 
 
 The violinplot shows density of the length and width in the species. The thinner part denotes that there is less density whereas the fatter part conveys higher density
@@ -181,7 +181,7 @@ plt.show()
 ```
 
 
-![png](output_21_0.png)
+![png](/assets/images/output_21_0.png)
 
 
 **Observation--->**
@@ -439,7 +439,7 @@ plt.xticks(x)
 
 
 
-![png](output_41_1.png)
+![png](/assets/images/output_41_1.png)
 
 
 Above is the graph showing the accuracy for the KNN models using different values of n. 
