@@ -209,49 +209,46 @@ plt.show()
 
 ### Task
 
-The given problem is a classification problem, where the samples belong to two or more classes and we want to learn from already labeled data how to predict the class of unlabeled data
+The given problem is a classification problem, where the samples belong to two or more classes and we want to learn from already labeled data how to predict the class of unlabeled data.
 We will use the classification algorithms to build a model.
 
-**ML notations**
-
+ML notations:
 1. _Attributes/Features_: a property of an instance that may be used to determine its classification. E.g. the petal and sepal length and width.
 2. _Target Variable_: the variable that is or should be the output.E.g. the 3 flower species.
 
-
+#### Import python packages for the classification algorithms
 ```python
-# importing alll the necessary packages to use the various classification algorithms
-from sklearn.linear_model import LogisticRegression  # for Logistic Regression algorithm
-from sklearn.cross_validation import train_test_split #to split the dataset for training and testing
-from sklearn.neighbors import KNeighborsClassifier  # for K nearest neighbours
-from sklearn import svm  #for Support Vector Machine (SVM) Algorithm
-from sklearn import metrics #for checking the model accuracy
-from sklearn.tree import DecisionTreeClassifier #for using Decision Tree Algoithm
+from sklearn.linear_model import LogisticRegression  # Logistic Regression algorithm
+from sklearn.cross_validation import train_test_split # Split the dataset for training and testing
+from sklearn.neighbors import KNeighborsClassifier  # K nearest neighbours
+from sklearn import svm  # Support Vector Machine (SVM) Algorithm
+from sklearn import metrics # Check the model accuracy
+from sklearn.tree import DecisionTreeClassifier # Decision Tree Algoithm
 ```
+
+
+#### Correlation between features
+When we train any algorithm, the number of features and their correlation plays an important role. If there are features and many of the features are highly correlated, then training an algorithm with all the featues will reduce the accuracy. Thus features selection should be done carefully.
 
 ```python
 iris.shape #get the shape of the dataset
 ```
     (150, 5)
 
-
-
-Now, when we train any algorithm, the number of features and their correlation plays an important role. If there are features and many of the features are highly correlated, then training an algorithm with all the featues will reduce the accuracy. Thus features selection should be done carefully. This dataset has less featues but still we will see the correlation.
+This dataset has less featues but still we will see the correlation.
 
 
 ```python
 plt.figure(figsize=(7,4)) 
-sns.heatmap(iris.corr(),annot=True,cmap='cubehelix_r') #draws  heatmap with input as the correlation matrix calculted by(iris.corr())
+# Draw a heatmap with input as the correlation matrix calculted by(iris.corr())
+sns.heatmap(iris.corr(),annot=True,cmap='cubehelix_r')
 plt.show()
 ```
-
-
 ![png](/assets/images/output_21_0.png)
 
-
-**Observation--->**
-
-The Sepal Width and Length are not correlated
-The Petal Width and Length are highly correlated
+**Observation:**
+* The Sepal Width and Length are not correlated
++ The Petal Width and Length are highly correlated
 
 We will use all the features for training the algorithm and check the accuracy.
 
