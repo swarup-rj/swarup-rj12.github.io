@@ -174,8 +174,7 @@ plt.show()
 **Observation:**
 * Petal Features are giving a better cluster division compared to the Sepal features.
 
-### Now let us see how are the length and width are distributed
-
+#### Distribution of the length and width:
 
 ```python
 iris.hist(edgecolor='black', linewidth=1.2)
@@ -183,12 +182,10 @@ fig=plt.gcf()
 fig.set_size_inches(12,6)
 plt.show()
 ```
-
-
 ![png](/assets/images/output_12_0.png)
 
 
-### Now let us see how the length and width vary according to the species
+#### Variation of length and width w.r.t. the species
 
 
 ```python
@@ -202,19 +199,6 @@ sns.violinplot(x='Species',y='SepalLengthCm',data=iris)
 plt.subplot(2,2,4)
 sns.violinplot(x='Species',y='SepalWidthCm',data=iris)
 ```
-
-    /Users/swarupranjanbehera/anaconda2/lib/python2.7/site-packages/scipy/stats/stats.py:1713: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
-      return np.add.reduce(sorted[indexer] * weights, axis=axis) / sumval
-
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x1a1e96a390>
-
-
-
-
 ![png](/assets/images/output_14_2.png)
 
 
