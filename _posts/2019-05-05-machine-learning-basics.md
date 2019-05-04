@@ -63,7 +63,7 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+![output_7_0.png]()
 
 
 The above graph shows relationship between the sepal length and width. Now we will check relationship between the petal length and width.
