@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning Basics"
 layout: post
-date: 2018-05-05
+date: 2019-05-05
 tags: blog
 comments: true
 ---
@@ -10,7 +10,7 @@ This is the first in a series of posts describing the basics of Machine Learning
 
 We will use the Iris dataset for our analysis. This can be found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/iris). It includes three iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other.
 The columns in this dataset are:Id, SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm, and 
-Species. Download the csv format of the [Iris dataset](/assets/Python/Iris.csv). 
+Species. Click [here](/assets/Python/Iris.csv) to download the csv format of the Iris dataset. 
 
 
 ```python
