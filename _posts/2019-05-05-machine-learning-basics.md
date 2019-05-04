@@ -207,7 +207,7 @@ plt.show()
 
 
 
-### Task
+## Task: Classification
 
 The given problem is a classification problem, where the samples belong to two or more classes and we want to learn from already labeled data how to predict the class of unlabeled data.
 We will use the classification algorithms to build a model.
@@ -536,8 +536,7 @@ test_x_s=test_s[['SepalWidthCm','SepalLengthCm']]
 test_y_s=test_s.Species
 ```
 
-#### SVM
-
+#### Support Vector Machine (SVM)
 
 ```python
 model=svm.SVC()
