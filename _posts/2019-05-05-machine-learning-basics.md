@@ -292,9 +292,6 @@ test_X= test[['SepalLengthCm','SepalWidthCm','PetalLengthCm','PetalWidthCm']]
 test_y =test.Species
 ```
 
-Lets check the Train and Test Dataset
-
-
 ```python
 train_X.head(2)
 ```
@@ -417,7 +414,7 @@ train_y.head()  ##output of the training data
 
 
 
-### Support Vector Machine (SVM)
+#### Support Vector Machine (SVM)
 
 
 ```python
@@ -435,7 +432,7 @@ SVM is giving very good accuracy . We will continue to check the accuracy for di
 
 Now we will follow the same steps as above for training various machine learning algorithms.
 
-### Logistic Regression
+#### Logistic Regression
 
 
 ```python
@@ -448,7 +445,7 @@ print('The accuracy of the Logistic Regression is',metrics.accuracy_score(predic
     ('The accuracy of the Logistic Regression is', 0.9777777777777777)
 
 
-### Decision Tree
+#### Decision Tree
 
 
 ```python
@@ -461,7 +458,7 @@ print('The accuracy of the Decision Tree is',metrics.accuracy_score(prediction,t
     ('The accuracy of the Decision Tree is', 0.9333333333333333)
 
 
-### K-Nearest Neighbours
+#### K-Nearest Neighbours
 
 
 ```python
@@ -474,7 +471,7 @@ print('The accuracy of the KNN is',metrics.accuracy_score(prediction,test_y))
     ('The accuracy of the KNN is', 0.9777777777777777)
 
 
-### Let's check the accuracy for various values of n for K-Nearest nerighbours
+#### Let's check the accuracy for various values of n for K-Nearest nerighbours
 
 
 ```python
@@ -513,9 +510,9 @@ plt.xticks(x)
 
 Above is the graph showing the accuracy for the KNN models using different values of n. 
 
-### We used all the features of iris in above models. Now we will use Petals and Sepals Seperately
+### Use Petals and Sepals Seperately
 
-### Creating Petals And Sepals Training Data 
+#### Creating Petals And Sepals Training Data 
 
 
 ```python
@@ -539,7 +536,7 @@ test_x_s=test_s[['SepalWidthCm','SepalLengthCm']]
 test_y_s=test_s.Species
 ```
 
-### SVM
+#### SVM
 
 
 ```python
@@ -558,7 +555,7 @@ print('The accuracy of the SVM using Sepal is:',metrics.accuracy_score(predictio
     ('The accuracy of the SVM using Sepal is:', 0.8)
 
 
-### Logistic Regression
+#### Logistic Regression
 
 
 ```python
@@ -576,7 +573,7 @@ print('The accuracy of the Logistic Regression using Sepals is:',metrics.accurac
     ('The accuracy of the Logistic Regression using Sepals is:', 0.6444444444444445)
 
 
-### Decision Tree
+#### Decision Tree
 
 
 ```python
@@ -594,7 +591,7 @@ print('The accuracy of the Decision Tree using Sepals is:',metrics.accuracy_scor
     ('The accuracy of the Decision Tree using Sepals is:', 0.6444444444444445)
 
 
-### K-Nearest Neighbours
+#### K-Nearest Neighbours
 
 
 ```python
