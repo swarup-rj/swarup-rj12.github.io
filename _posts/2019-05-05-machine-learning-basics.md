@@ -216,6 +216,8 @@ ML notations:
 1. _Attributes/Features_: a property of an instance that may be used to determine its classification. E.g. the petal and sepal length and width.
 2. _Target Variable_: the variable that is or should be the output.E.g. the 3 flower species.
 
+N.B. if the desired output consists of one or more continuous variables, then the task is called regression. An example of a regression problem would be the prediction of the length of a salmon as a function of its age and weight.
+
 #### Import python packages for the classification algorithms
 ```python
 from sklearn.linear_model import LogisticRegression  # Logistic Regression algorithm
@@ -250,17 +252,20 @@ plt.show()
 * The Sepal Width and Length are not correlated
 + The Petal Width and Length are highly correlated
 
-We will use all the features for training the algorithm and check the accuracy.
-
-Then we will use 1 Petal Feature and 1 Sepal Feature to check the accuracy of the algorithm as we are using only 2 features that are not correlated. Thus we can have a variance in the dataset which may help in better accuracy. We will check it later.
-
-### Steps To Be followed When Applying an Algorithm
+#### Steps To Be followed When Applying an Algorithm
 
  1. Split the dataset into training and testing dataset. The testing dataset is generally smaller than training one as it will help in training the model better.
  2. Select any algorithm based on the problem (classification or regression) whatever you feel may be good.
  3. Then pass the training dataset to the algorithm to train it. We use the **.fit()** method
  4. Then pass the testing data to the trained algorithm to predict the outcome. We use the **.predict()** method.
  5. We then check the accuracy by **passing the predicted outcome and the actual output** to the model.
+
+
+We will use all the features for training the algorithm and check the accuracy.
+
+Then we will use 1 Petal Feature and 1 Sepal Feature to check the accuracy of the algorithm as we are using only 2 features that are not correlated. Thus we can have a variance in the dataset which may help in better accuracy. We will check it later.
+
+
 
 ### Splitting The Data into Training And Testing Dataset
 
