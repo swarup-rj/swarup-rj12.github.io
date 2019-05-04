@@ -260,23 +260,18 @@ plt.show()
  4. Then pass the testing data to the trained algorithm to predict the outcome. We use the **.predict()** method.
  5. We then check the accuracy by **passing the predicted outcome and the actual output** to the model.
 
+### Using All Features
 
-We will use all the features for training the algorithm and check the accuracy.
+We will first use all the features for training the algorithm and check the accuracy.
+Then we will use 1 Petal Feature and 1 Sepal Feature to check the accuracy of the algorithm as we are using only 2 features that are not correlated. Thus we can have a variance in the dataset which may help in better accuracy.
 
-Then we will use 1 Petal Feature and 1 Sepal Feature to check the accuracy of the algorithm as we are using only 2 features that are not correlated. Thus we can have a variance in the dataset which may help in better accuracy. We will check it later.
-
-
-
-### Splitting The Data into Training And Testing Dataset
-
+#### Splitting The Data into Training And Testing Dataset
 
 ```python
-train, test = train_test_split(iris, test_size = 0.3)# in this our main data is split into train and test
-# the attribute test_size=0.3 splits the data into 70% and 30% ratio. train=70% and test=30%
+train, test = train_test_split(iris, test_size = 0.3)# splits the data: train=70% and test=30%
 print(train.shape)
 print(test.shape)
 ```
-
     (105, 5)
     (45, 5)
 
