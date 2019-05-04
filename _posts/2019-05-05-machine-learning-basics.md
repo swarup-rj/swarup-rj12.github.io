@@ -185,8 +185,11 @@ plt.show()
 ![png](/assets/images/output_12_0.png)
 
 
-#### Variation of length and width w.r.t. the species
+#### Variation of length and width w.r.t. the species:
 
+For this we make use of the violinplot, which shows density of the length and width in the species. 
+1. Thinner part: less density
+2. Fatter part: higher density
 
 ```python
 plt.figure(figsize=(15,10))
@@ -202,7 +205,6 @@ sns.violinplot(x='Species',y='SepalWidthCm',data=iris)
 ![png](/assets/images/output_14_2.png)
 
 
-The violinplot shows density of the length and width in the species. The thinner part denotes that there is less density whereas the fatter part conveys higher density
 
 ### Now the given problem is a classification problem.. Thus we will be using the classification algorithms to build a model.
 **Classification**: samples belong to two or more classes and we want to learn from already labeled data how to predict the class of unlabeled data
