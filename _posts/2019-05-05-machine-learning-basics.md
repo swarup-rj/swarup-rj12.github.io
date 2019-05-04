@@ -14,7 +14,7 @@ Species. Click [here](/assets/Python/Iris.csv) to download the csv format of the
 
 Lets begin...
 
-#### Import the python packages numpy (linear algebra), panda (data processing), ...
+#### Import the python packages
 ```python
 import numpy as np
 import pandas as pd
@@ -29,7 +29,7 @@ iris = pd.read_csv("Iris.csv") #load the dataset
 ```python
 iris.head() #show the first 5 rows from the dataset
 ```
-SL: SepalLength, SW: SepalWidth, PL: PetalLength, PW: PetalWidth 
+ 
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -105,7 +105,7 @@ SL: SepalLength, SW: SepalWidth, PL: PetalLength, PW: PetalWidth
   </tbody>
 </table>
 </div>
-
+(SL: SepalLength, SW: SepalWidth, PL: PetalLength, PW: PetalWidth)
 
 
 
