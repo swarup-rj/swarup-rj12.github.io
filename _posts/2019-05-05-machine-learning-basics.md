@@ -201,21 +201,21 @@ plt.subplot(2,2,3)
 sns.violinplot(x='Species',y='SepalLengthCm',data=iris)
 plt.subplot(2,2,4)
 sns.violinplot(x='Species',y='SepalWidthCm',data=iris)
+plt.show()
 ```
 ![png](/assets/images/output_14_2.png)
 
 
 
-### Now the given problem is a classification problem.. Thus we will be using the classification algorithms to build a model.
-**Classification**: samples belong to two or more classes and we want to learn from already labeled data how to predict the class of unlabeled data
+### Task
 
-**Regression**: if the desired output consists of one or more continuous variables, then the task is called regression. An example of a regression problem would be the prediction of the length of a salmon as a function of its age and weight.
+The given problem is a classification problem, where the samples belong to two or more classes and we want to learn from already labeled data how to predict the class of unlabeled data
+We will use the classification algorithms to build a model.
 
-Before we start, we need to clear some ML notations.
+**ML notations**
 
-**attributes**-->An attribute is a property of an instance that may be used to determine its classification. In the following dataset, the attributes are the petal and sepal length and width. It is also known as **Features**.
-
-**Target variable**, in the machine learning context is the variable that is or should be the output. Here the target variables are the 3 flower species.
+1. _Attributes/Features_: a property of an instance that may be used to determine its classification. E.g. the petal and sepal length and width.
+2. _Target Variable_: the variable that is or should be the output.E.g. the 3 flower species.
 
 
 ```python
@@ -228,18 +228,9 @@ from sklearn import metrics #for checking the model accuracy
 from sklearn.tree import DecisionTreeClassifier #for using Decision Tree Algoithm
 ```
 
-    /Users/swarupranjanbehera/anaconda2/lib/python2.7/site-packages/sklearn/cross_validation.py:41: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
-      "This module will be removed in 0.20.", DeprecationWarning)
-
-
-
 ```python
 iris.shape #get the shape of the dataset
 ```
-
-
-
-
     (150, 5)
 
 
