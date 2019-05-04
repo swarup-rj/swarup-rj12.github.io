@@ -12,23 +12,105 @@ We will use the Iris dataset for our analysis. This can be found on the [UCI Mac
 The columns in this dataset are:Id, SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm, and 
 Species. Click [here](/assets/Python/Iris.csv) to download the csv format of the Iris dataset. 
 
+Lets begin...
 
+#### Import the python packages numpy (linear algebra), panda (data processing), ...
 ```python
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import numpy as np
+import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 
-
 ```python
 iris = pd.read_csv("Iris.csv") #load the dataset
 ```
-# iris.head() #show the first 5 rows from the dataset
 
 ```python
-iris.info()  #checking if there is any inconsistency in the dataset
-#as we see there are no null values in the dataset, so the data can be processed
+iris.head() #show the first 5 rows from the dataset
+```
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Id</th>
+      <th>SepalLengthCm</th>
+      <th>SepalWidthCm</th>
+      <th>PetalLengthCm</th>
+      <th>PetalWidthCm</th>
+      <th>Species</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>5.1</td>
+      <td>3.5</td>
+      <td>1.4</td>
+      <td>0.2</td>
+      <td>Iris-setosa</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>4.9</td>
+      <td>3.0</td>
+      <td>1.4</td>
+      <td>0.2</td>
+      <td>Iris-setosa</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>4.7</td>
+      <td>3.2</td>
+      <td>1.3</td>
+      <td>0.2</td>
+      <td>Iris-setosa</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>4.6</td>
+      <td>3.1</td>
+      <td>1.5</td>
+      <td>0.2</td>
+      <td>Iris-setosa</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>5.0</td>
+      <td>3.6</td>
+      <td>1.4</td>
+      <td>0.2</td>
+      <td>Iris-setosa</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+iris.info()
 ```
 
     <class 'pandas.core.frame.DataFrame'>
@@ -42,6 +124,7 @@ iris.info()  #checking if there is any inconsistency in the dataset
     Species          150 non-null object
     dtypes: float64(4), int64(1), object(1)
     memory usage: 7.1+ KB
+
 
 
 #### Removing the unneeded column
