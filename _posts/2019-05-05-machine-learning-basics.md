@@ -110,7 +110,8 @@ iris.head() #show the first 5 rows from the dataset
 
 
 ```python
-iris.info()
+#Inconsistency check: if no null values, then the data can be processed
+iris.info() 
 ```
 
     <class 'pandas.core.frame.DataFrame'>
@@ -131,7 +132,7 @@ iris.info()
 
 
 ```python
-#dropping the Id column as it is unecessary, axis=1 specifies that it should be column wise, inplace =1 means the changes should be reflected into the dataframe
+# Drop Id column, axis=1: column wise, inplace =1: changes should be reflected into the dataframe
 iris.drop('Id',axis=1,inplace=True) 
 ```
 
