@@ -268,7 +268,8 @@ Then we will use 1 Petal Feature and 1 Sepal Feature to check the accuracy of th
 #### Splitting The Data into Training And Testing Dataset
 
 ```python
-train, test = train_test_split(iris, test_size = 0.3)# splits the data: train=70% and test=30%
+# Split the data: train=70% and test=30%
+train, test = train_test_split(iris, test_size = 0.3)
 print(train.shape)
 print(test.shape)
 ```
@@ -278,10 +279,17 @@ print(test.shape)
 
 
 ```python
-train_X = train[['SepalLengthCm','SepalWidthCm','PetalLengthCm','PetalWidthCm']]# taking the training data features
-train_y=train.Species# output of our training data
-test_X= test[['SepalLengthCm','SepalWidthCm','PetalLengthCm','PetalWidthCm']] # taking test data features
-test_y =test.Species   #output value of test data
+# taking the training data features
+train_X = train[['SepalLengthCm','SepalWidthCm','PetalLengthCm','PetalWidthCm']]
+
+# output value of training data
+train_y=train.Species
+
+# taking the test data features
+test_X= test[['SepalLengthCm','SepalWidthCm','PetalLengthCm','PetalWidthCm']] 
+
+# output value of test data
+test_y =test.Species
 ```
 
 Lets check the Train and Test Dataset
