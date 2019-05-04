@@ -130,7 +130,7 @@ iris.info()
 
 
 
-#### Removing the unneeded column
+#### Removing the unneeded columns
 
 
 ```python
@@ -138,8 +138,9 @@ iris.info()
 iris.drop('Id',axis=1,inplace=True) 
 ```
 
-## Some Exploratory Data Analysis With Iris
+### Exploratory Data Analysis With Iris
 
+#### Relationship between the sepal length and sepal width:
 
 ```python
 fig = iris[iris.Species=='Iris-setosa'].plot(kind='scatter',x='SepalLengthCm',y='SepalWidthCm',color='orange', label='Setosa')
@@ -152,14 +153,10 @@ fig=plt.gcf()
 fig.set_size_inches(10,6)
 plt.show()
 ```
-
-
 ![png](/assets/images/output_7_0.png)
 
 
-The above graph shows relationship between the sepal length and width. Now we will check relationship between the petal length and width.
-
-
+#### Relationship between the petal length and petal width:
 ```python
 fig = iris[iris.Species=='Iris-setosa'].plot.scatter(x='PetalLengthCm',y='PetalWidthCm',color='orange', label='Setosa')
 iris[iris.Species=='Iris-versicolor'].plot.scatter(x='PetalLengthCm',y='PetalWidthCm',color='blue', label='versicolor',ax=fig)
@@ -171,12 +168,11 @@ fig=plt.gcf()
 fig.set_size_inches(10,6)
 plt.show()
 ```
-
-
 ![png](/assets/images/output_9_0.png)
 
 
-As we can see that the Petal Features are giving a better cluster division compared to the Sepal features. This is an indication that the Petals can help in better and accurate Predictions over the Sepal. We will check that later.
+**Observation:**
+* Petal Features are giving a better cluster division compared to the Sepal features.
 
 ### Now let us see how are the length and width are distributed
 
