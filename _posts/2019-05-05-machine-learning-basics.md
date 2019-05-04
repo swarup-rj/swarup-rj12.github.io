@@ -14,7 +14,7 @@ Species. Click [here](/assets/Python/Iris.csv) to download the csv format of the
 
 Lets begin...
 
-#### Import the python packages
+#### Import python packages
 ```python
 import numpy as np
 import pandas as pd
@@ -22,10 +22,12 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 
+#### Load the Iris dataset
 ```python
-iris = pd.read_csv("Iris.csv") #load the dataset
+iris = pd.read_csv("Iris.csv")
 ```
 
+#### Information about the dataset
 ```python
 iris.head() #show the first 5 rows from the dataset
 ```
