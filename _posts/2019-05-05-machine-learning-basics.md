@@ -51,10 +51,10 @@ iris.head() #show the first 5 rows from the dataset
     <tr style="text-align: right;">
       <th></th>
       <th>Id</th>
-      <th>SL: Cm</th>
-      <th>SW: Cm</th>
-      <th>PL: Cm</th>
-      <th>PW: Cm</th>
+      <th>SepalLengthCm</th>
+      <th>SepalWidthCm</th>
+      <th>PetalLengthCm</th>
+      <th>PetalWidthCm</th>
       <th>Species</th>
     </tr>
   </thead>
@@ -107,7 +107,6 @@ iris.head() #show the first 5 rows from the dataset
   </tbody>
 </table>
 </div>
-(SL: SepalLength, SW: SepalWidth, PL: PetalLength, PW: PetalWidth)
 
 
 
