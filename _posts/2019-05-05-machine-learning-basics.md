@@ -29,7 +29,7 @@ iris = pd.read_csv("Iris.csv") #load the dataset
 ```python
 iris.head() #show the first 5 rows from the dataset
 ```
-
+SL: SepalLength, SW: SepalWidth, PL: PetalLength, PW: PetalWidth 
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -49,10 +49,10 @@ iris.head() #show the first 5 rows from the dataset
     <tr style="text-align: right;">
       <th></th>
       <th>Id</th>
-      <th>SepalLengthCm</th>
-      <th>SepalWidthCm</th>
-      <th>PetalLengthCm</th>
-      <th>PetalWidthCm</th>
+      <th>SL: Cm</th>
+      <th>SW: Cm</th>
+      <th>PL: Cm</th>
+      <th>PW: Cm</th>
       <th>Species</th>
     </tr>
   </thead>
