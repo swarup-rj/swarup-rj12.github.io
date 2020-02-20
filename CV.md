@@ -36,25 +36,27 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 
 ### Teaching Experience
 
-*Teaching Assistant, Department of CSE, IIT Guwahati*
+*Teaching Assistant (TA), Department of CSE, IIT Guwahati*
 
-| Course | Duration | Instructor |
-|:-------:|:--------:|:--------:|
-| Computing Lab | 2019(1) | Dr. V. Vijaya Saradhi |
-| Software Engineering | 2018(2) | Dr. V. Vijaya Saradhi | 
-| Computing Lab | 2018(1) | Dr. Ashish Anand |
-| Design and Analysis of Algorithms | 2017(2) | Dr. Sushanta Karmakar |
-| Computing Lab | 2017(1) | Dr. V. Vijaya Saradhi |
-| Computer Vision using Machine Learning | 2016(2) | Dr. Arijit Sur |
-| Database Lab | 2016(1) | Dr. V. Vijaya Saradhi |
-| Discrete Mathematics | 2015(2) | Dr. Benny George K. |
-| Database Lab | 2015(1) | Dr. V. Vijaya Saradhi |
-| Data Structures Lab | 2014(2) | Dr. Arnab Sarkar |
-| Probability and Linear Algebra | 2014(1) | Dr. Ashish Anand |
-| Data Communication | 2013(2) | Dr. T. Venkatesh |
+| Course | Duration | Instructor | Role |
+|:-------:|:--------:|:--------:|:--------:|
+| Database Lab | 2020(1) | Dr. V. Vijaya Saradhi | Head TA |
+| Software Engineering | 2019(2) | Dr. V. Vijaya Saradhi | TA | 
+| Computing Lab | 2019(1) | Dr. V. Vijaya Saradhi | Head TA |
+| Software Engineering | 2018(2) | Dr. V. Vijaya Saradhi | TA | 
+| Computing Lab | 2018(1) | Dr. Ashish Anand | Head TA |
+| Design and Analysis of Algorithms | 2017(2) | Dr. Sushanta Karmakar | TA |
+| Computing Lab | 2017(1) | Dr. V. Vijaya Saradhi | Head TA |
+| Computer Vision using Machine Learning | 2016(2) | Dr. Arijit Sur | TA |
+| Database Lab | 2016(1) | Dr. V. Vijaya Saradhi | TA |
+| Discrete Mathematics | 2015(2) | Dr. Benny George K. | TA |
+| Database Lab | 2015(1) | Dr. V. Vijaya Saradhi | TA |
+| Data Structures Lab | 2014(2) | Dr. Arnab Sarkar | TA |
+| Probability and Linear Algebra | 2014(1) | Dr. Ashish Anand | TA |
+| Data Communication | 2013(2) | Dr. T. Venkatesh | TA |
 |-------|--------|--------|
 
-*(1): January to June and (2): July to December*
+*(1): January to June Semester and (2): July to December Semester*
 
 
 ### Achievements
