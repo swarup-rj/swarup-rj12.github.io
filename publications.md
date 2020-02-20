@@ -8,6 +8,7 @@ active: publications
   >> **Swarup Ranjan Behera**, Vijaya V Saradhi
   >> [In proceedings of the 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning](https://www.esann.org/)
   >> Bruges, Belgium, April 22-24, 2020.
+  >> ![Tux, the Linux mascot](/assets/images/1.jpg)
 
 > ***Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary***
   >> **Swarup Ranjan Behera**, Parag Agrawal, Amit Awekar, and V. Vijaya Saradhi
