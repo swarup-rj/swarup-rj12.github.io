@@ -3,11 +3,11 @@ layout: page
 title: CV
 ---
 
-[Curriculum Vitae (PDF)](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)
+**[Curriculum Vitae (PDF)](https://swarup-rj.github.io/assets/pdfs/Swarup_cv.pdf)**
 
-[Every Course I Have Ever Taken](https://docs.google.com/spreadsheets/d/1WmSOsk2sekjooDfWfCsbxnCBYaI4FS7DafxIaHO6NPk/edit?usp=sharing)
+**[Every Course I Have Ever Taken](https://docs.google.com/spreadsheets/d/1WmSOsk2sekjooDfWfCsbxnCBYaI4FS7DafxIaHO6NPk/edit?usp=sharing)**
 
-### Education
+<p><h3>Education</h3></p>
 
 | Degree | Department | Institution | CPI | Years |
 |:-------:|:--------:|:--------:|:--------:|:--------:|
