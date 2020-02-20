@@ -19,13 +19,13 @@ Before this, I earned my M.Tech in Computer Science and Engineering from [IIT Gu
 
 <p><h3>News & Activities</h3></p>
 
-> Paper accepted at ESANN 2020, Bruges, Belgium (2020-01-24)
-  >> Swarup Ranjan Behera, Vijaya V Saradhi, "Mining Temporal Changes in Strengths and Weaknesses of Cricket Players Using Tensor Decomposition", 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, April 2020
+> **2020-01-24**: Paper accepted at ESANN 2020, Bruges, Belgium.
+  >> Mining Temporal Changes in Strengths and Weaknesses of Cricket Players Using Tensor Decomposition.
   
-> ICMLA paper presented by Nayantara at ICMLA 2019 (2019-12-17)
+> **2019-12-17**: ICMLA paper presented by Nayantara at ICMLA 2019, Boca Raton, Florida, USA.
   
-> Paper accepted at ICMLA 2019, Boca Raton, Florida, USA (2019-09-12)
-  >> Swarup Ranjan Behera, Parag Agrawal, Amit Awekar, V. Vijaya Saradhi, "Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary", 18th IEEE International Conference on Machine Learning and Applications, December 2019
+> **2019-09-12**: Paper accepted at ICMLA 2019, Boca Raton, Florida, USA.
+  >> Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary.
 
 
 **[Last updated: Feb 20, 2020]**
