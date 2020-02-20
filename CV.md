@@ -18,7 +18,7 @@ title: CV
 
 *CSE: Computer Science and Engineering, CPI: Cumulative Performance Index*
 
-### Grants and Fellowships
+<p><h3>Grants and Fellowships</h3></p>
 
 | Scholarship/Fellowship | Duration |
 |:-------:|:--------:|
@@ -30,7 +30,7 @@ title: CV
 |Elementary Scholarship | 1996 - 1997 |
 |-------|--------|
 
-### Teaching Experience
+<p><h3>Teaching Experience</h3></p>
 
 *Teaching Assistant (TA), Department of CSE, IIT Guwahati*
 
@@ -54,8 +54,7 @@ title: CV
 
 *(1): January to June Semester and (2): July to December Semester*
 
-
-### Achievements
+<p><h3>Achievements</h3></p>
 
 *Academic:*
 
