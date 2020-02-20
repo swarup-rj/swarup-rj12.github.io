@@ -7,10 +7,6 @@ title: CV
 
 [Every Course I Have Ever Taken](https://docs.google.com/spreadsheets/d/1WmSOsk2sekjooDfWfCsbxnCBYaI4FS7DafxIaHO6NPk/edit?usp=sharing)
 
-### Research Interests
-
-Short Text Mining, Sport Analytics, Data Mining, Machine Learning
-
 ### Education
 
 | Degree | Department | Institution | CPI | Years |
@@ -54,7 +50,7 @@ Short Text Mining, Sport Analytics, Data Mining, Machine Learning
 | Data Structures Lab | 2014(2) | Dr. Arnab Sarkar | TA |
 | Probability and Linear Algebra | 2014(1) | Dr. Ashish Anand | TA |
 | Data Communication | 2013(2) | Dr. T. Venkatesh | TA |
-|-------|--------|--------|
+|-------|--------|--------|--------|
 
 *(1): January to June Semester and (2): July to December Semester*
 
