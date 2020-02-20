@@ -10,7 +10,7 @@ active: publications
   >> Bruges, Belgium, April 22-24, 2020
   >>
   >> #### Batsman Steve Smith's strength and weakness on full-length deliveries over the years:
-      ![Batsman Steve Smith's strength and weakness on full-length deliveries over the years.](/assets/images/FullSmith.png)
+  >> ![Batsman Steve Smith's strength and weakness on full-length deliveries over the years.](/assets/images/FullSmith.png)
 
 > ***Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary***
   >> **Swarup Ranjan Behera**, Parag Agrawal, Amit Awekar, and V. Vijaya Saradhi  
@@ -18,4 +18,4 @@ active: publications
   >> Boca Raton, Florida, USA, December 16-19, 2019
   >>
   >> #### Batsman Steve Smith's strength and weakness:
-     ![Steve Smith's Response: strength and weakness.](/assets/images/response.png)
+  >> ![Steve Smith's Response: strength and weakness.](/assets/images/response.png)
