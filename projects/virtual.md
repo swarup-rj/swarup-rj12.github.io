@@ -6,9 +6,7 @@ comments: false
 ---
 ___
 
->May-June 2014
-
-___
+<p align="right">May-June 2014<p>
 
 Implemented an e-learning education system based on web that models conventional in-person education by providing equivalent virtual access to classes, class content, tests, homework, grades, assessments. Used HTML, PHP, JavaScript, MySQL. 
 
