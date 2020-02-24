@@ -7,28 +7,28 @@ title: Projects
 
 ##### *Active*
 
-- [Mining strengths and weaknesses of cricket players using short text commentary](/projects/weakness)
+- [Mining strengths and weaknesses of cricket players.](/projects/weakness)
 
-- [Mining temporal changes in strengths and weaknesses of cricket players using tensor decomposition](/projects/weaknesstime)
+- [Mining temporal changes in strengths and weaknesses of cricket players.](/projects/weaknesstime)
 
 ##### *Recently Active* 
 
-- [Spectral clustering using convex and constrained settings](/projects/spectralclustering)
+- [Spectral clustering using convex and constrained settings.](/projects/spectralclustering)
 
 
 ##### *Inactive* 
 
-- [A novel ontology based entity relationship model](/projects/ontology)
+- [A novel ontology based entity relationship model.](/projects/ontology)
 
 ### Course Projects
 
-- [Community detection using greedy clique and plex algorithm](/projects/clique)
+- [Community detection using greedy clique and plex algorithm.](/projects/clique)
 
-- [Search engine for information retrieval](/projects/searchengine)
+- [Search engine for information retrieval.](/projects/searchengine)
 
 ### Summer Projects
 
-- [Virtual learning environment for Chemistry department IIT Guwahati](/projects/virtual)
+- [Virtual learning environment for Chemistry department IIT Guwahati.](/projects/virtual)
 
 
 ### Other
