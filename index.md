@@ -25,4 +25,4 @@ Before this, I earned my M.Tech in Computer Science and Engineering from [IIT Gu
   
 > **2019-09-12** *Paper accepted at [ICMLA 2019](https://www.icmla-conference.org), Boca Raton, Florida, USA.*
 
-**[Last updated: Feb 20, 2020]**
+**[Last updated: Feb 25, 2020]**
