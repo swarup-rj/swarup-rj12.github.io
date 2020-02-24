@@ -6,7 +6,7 @@ comments: false
 ---
 ___
 
-This is the term project (M.Tech) for the course of Computational System Biology. I have implemented the existing Greedy Clique Algorithm (GCE) for community detection which uses cliques as seeds. Further proposed a novel Greedy Plex Algorithm, a variant of GCE which uses plexes in place of cliques. Used C++ and UCINET tool.
+This is the research work towards my B.Tech Project. I have made a comprehensive study of Entity Relationship (ER) model, explored its limitations and proposed a novel Ontology Based Entity Relationship (OBER) model. Also explored some challenging research issues and scope for future work associated with our proposed model.
 
 ___
 
