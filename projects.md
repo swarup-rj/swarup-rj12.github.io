@@ -7,31 +7,29 @@ title: Projects
 
 ##### *Active*
 
-1. Identification of strengths and weakness of players in the game of Cricket:  
-Computationally, learning individual players strengths and weaknesses is a non-trivial and an unexplored machine learning problem that has significant commercial value. It is the key for team selection and strategy planning.
-Central idea is to mine strength and weakness rules using short text commentary data.
+- [**Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary**](/projects/weakness)
+
+- [**Mining Temporal Changes in Strengths and Weaknesses of Cricket Players Using Tensor Decomposition**](/projects/weaknesstime)
 
 ##### *Recently Active* 
-1. Spectral clustering using convex and constrained settings:  
-Proposed a framework to incorporate pairwise constraints in to semidefinite spectral clustering. 
-Further extended it from passive to active and self taught learning settings.
+
+- [**Spectral clustering using convex and constrained settings**](/projects/spectralclustering)
+
 
 ##### *Inactive* 
-1. A novel Ontology based Entity Relationship model:  
-A comprehensive study of Entity Relationship model was done. 
-Its limitations were explored and a novel Ontology Based Entity Relationship model was proposed.
 
+- [**A novel Ontology based Entity Relationship model**](/projects/ontology)
 
 ### Course Projects
 
-1. Community detection using greedy clique and plex algorithm:  
- Implemented the existing Greedy Clique Algorithm (GCE) for community detection which uses cliques as seeds. Further proposed a novel Greedy Plex Algorithm, a variant of GCE which uses plexes in place of cliques. Used C++ and UCINET tool.
+- [**Community detection using greedy clique and plex algorithm**](/projects/clique)
 
-2. Search Engine for Information Retrieval:
-A web search Engine which searches for 1.2 million (27GB) webpages using page-rank algorithm and  suffix array data structure. Used Python, HTML, PHP and JavaScript.  
+- [**Search Engine for Information Retrieval**](/projects/searchengine)
+
 
 ### Public datasets
 
+- [**Short text commentary dataset for Cricket Test matches**](/projects/commentarydata)
 
 ### Other
 
