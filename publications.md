@@ -12,7 +12,7 @@ active: publications
   >> #### Batsman Steve Smith's strength and weakness on full-length deliveries over the years:
   >> ![Batsman Steve Smith's strength and weakness on full-length deliveries over the years.](/assets/images/FullSmith.png)
 
-> ***Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary***
+> ***Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary ([PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8999115))***
   >> **Swarup Ranjan Behera**, Parag Agrawal, Amit Awekar, and V. Vijaya Saradhi  
   >> [In proceedings of the 18th IEEE International Conference on Machine Learning and Applications](https://www.icmla-conference.org/icmla19/)  
   >> Boca Raton, Florida, USA, December 16-19, 2019
