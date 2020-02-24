@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary"
+title: "Spectral clustering using convex and constrained settings"
 author: Swarup R Behera
 comments: false
 ---
