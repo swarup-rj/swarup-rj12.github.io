@@ -26,10 +26,10 @@ title: Projects
 
 - [Search Engine for Information Retrieval](/projects/searchengine)
 
+### Summer Projects
 
-### Public datasets
+- [Virtual Learning Environment for Chemistry Department IIT Guwahati](/projects/virtual)
 
-- [Short text commentary dataset for Cricket Test matches](/projects/commentarydata)
 
 ### Other
 
