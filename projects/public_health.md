@@ -6,16 +6,12 @@ comments: false
 ---
 ___
 
-I have two projects in collaboration with Yale Medical student [Samara Fox](https://www.linkedin.com/in/samara-fox-5483469/):
+This is the first research work towards my PhD thesis.
 
 ___
 
-### Project 1: Mental health in LGBTQ asylum seekers
+### Abstract:
 
-We are conducting a survey study about mental health and healthcare access among LGBTQ asylum seekers in the U.S. Our goal is to describe the epidemiology of mental health problems in this population and their access to treatment.
-
-### Project 2: Effectiveness of a training intervention for emergency room staff in Tanzania
-
-We are evaluating the effectiveness of a staff traning intervention (developed and implemented by Sam) in improving clinical practice and outcomes for patients with traumatic brain injuries. 
+Knowledge of strengths and weaknesses of players is the key for team selection and strategy planning in any team sport such as Cricket. Computationally, this problem is mostly unexplored. Existing methods focus only on aggregate and macroscopic statistics that ignore many details. The central idea of our paper is to mine strength and weakness rules using short text commentary data. This dataset is compact, semi-structured, accurate, and yet ignored by the machine learning community until now. We collect fine-grained information about each player from the short text commentary dataset and represent it using domain-specific features identified by us. We employ a dimensionality reduction method specific to discrete random variable case, namely correspondence analysis and construct semantic relation between bowler and batsman.  This relation is plotted using biplots. Human readable strength and  weakness rules are extracted from the biplots.  We have performed experiments using a large dataset that describes over one million deliveries. We validate our extracted rules using both intrinsic and extrinsic validation. 
 
 ___
