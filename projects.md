@@ -24,7 +24,7 @@ title: Projects
 
 - [Community detection using greedy clique and plex algorithm.](/projects/clique)
 
-- [Search engine for information retrieval.](/projects/searchengine)
+- [Web search engine.](/projects/searchengine)
 
 ### Summer Projects
 
