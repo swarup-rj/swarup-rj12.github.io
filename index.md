@@ -20,12 +20,9 @@ Before this, I earned my M.Tech in Computer Science and Engineering from [IIT Gu
 <p><h3>News & Activities</h3></p>
 
 > **2020-01-24** *Paper accepted at [ESANN 2020](https://www.esann.org/), Bruges, Belgium.*
-  >> Mining Temporal Changes in Strengths and Weaknesses of Cricket Players Using Tensor Decomposition.
   
 > **2019-12-17** *ICMLA paper presented by Nayantara at [ICMLA 2019](https://www.icmla-conference.org), Boca Raton, Florida, USA.*
   
 > **2019-09-12** *Paper accepted at [ICMLA 2019](https://www.icmla-conference.org), Boca Raton, Florida, USA.*
-  >> Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary.
-
 
 **[Last updated: Feb 20, 2020]**
