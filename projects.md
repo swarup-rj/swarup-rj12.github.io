@@ -20,13 +20,13 @@ title: Projects
 
 - [A novel ontology based entity relationship model.](/projects/ontology)
 
-### Term Projects (M.Tech)
+### Term Projects
 
 - [Community detection using greedy clique and plex algorithm.](/projects/clique)
 
 - [Search engine for information retrieval.](/projects/searchengine)
 
-### Summer Projects (M.Tech)
+### Summer Projects
 
 - [Virtual learning environment for Chemistry department IIT Guwahati.](/projects/virtual)
 
