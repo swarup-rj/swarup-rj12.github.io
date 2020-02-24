@@ -7,29 +7,29 @@ title: Projects
 
 ##### *Active*
 
-- [**Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary**](/projects/weakness)
+- [Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary](/projects/weakness)
 
-- [**Mining Temporal Changes in Strengths and Weaknesses of Cricket Players Using Tensor Decomposition**](/projects/weaknesstime)
+- [Mining Temporal Changes in Strengths and Weaknesses of Cricket Players Using Tensor Decomposition](/projects/weaknesstime)
 
 ##### *Recently Active* 
 
-- [**Spectral clustering using convex and constrained settings**](/projects/spectralclustering)
+- [Spectral clustering using convex and constrained settings](/projects/spectralclustering)
 
 
 ##### *Inactive* 
 
-- [**A novel Ontology based Entity Relationship model**](/projects/ontology)
+- [A novel Ontology based Entity Relationship model](/projects/ontology)
 
 ### Course Projects
 
-- [**Community detection using greedy clique and plex algorithm**](/projects/clique)
+- [Community detection using greedy clique and plex algorithm](/projects/clique)
 
-- [**Search Engine for Information Retrieval**](/projects/searchengine)
+- [Search Engine for Information Retrieval](/projects/searchengine)
 
 
 ### Public datasets
 
-- [**Short text commentary dataset for Cricket Test matches**](/projects/commentarydata)
+- [Short text commentary dataset for Cricket Test matches](/projects/commentarydata)
 
 ### Other
 
