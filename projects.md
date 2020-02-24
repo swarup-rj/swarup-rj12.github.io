@@ -7,9 +7,9 @@ title: Projects
 
 ##### *Active*
 
-- [Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary](/projects/weakness)
+- [Mining strengths and weaknesses of cricket players using short text commentary](/projects/weakness)
 
-- [Mining Temporal Changes in Strengths and Weaknesses of Cricket Players Using Tensor Decomposition](/projects/weaknesstime)
+- [Mining temporal changes in strengths and weaknesses of cricket players using tensor decomposition](/projects/weaknesstime)
 
 ##### *Recently Active* 
 
@@ -18,17 +18,17 @@ title: Projects
 
 ##### *Inactive* 
 
-- [A novel Ontology based Entity Relationship model](/projects/ontology)
+- [A novel ontology based entity relationship model](/projects/ontology)
 
 ### Course Projects
 
 - [Community detection using greedy clique and plex algorithm](/projects/clique)
 
-- [Search Engine for Information Retrieval](/projects/searchengine)
+- [Search engine for information retrieval](/projects/searchengine)
 
 ### Summer Projects
 
-- [Virtual Learning Environment for Chemistry Department IIT Guwahati](/projects/virtual)
+- [Virtual learning environment for Chemistry department IIT Guwahati](/projects/virtual)
 
 
 ### Other
