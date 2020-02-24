@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary"
+title: "Mining Temporal Changes in Strengths and Weaknesses of Cricket Players Using Tensor Decomposition"
 author: Swarup R Behera
 comments: false
 ---
