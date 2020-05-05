@@ -19,6 +19,8 @@ Before this, I earned my M.Tech in Computer Science and Engineering from [IIT Gu
 
 <p><h3>News & Activities</h3></p>
 
+{% include callout.html content="Paper accepted at [ESANN 2020](https://www.esann.org/), Bruges, Belgium. " type="primary" %}
+
 > **2020-01-24** *Paper accepted at [ESANN 2020](https://www.esann.org/), Bruges, Belgium.*
   
 > **2019-12-17** *ICMLA paper presented by Nayantara at [ICMLA 2019](https://www.icmla-conference.org), Boca Raton, Florida, USA.*
