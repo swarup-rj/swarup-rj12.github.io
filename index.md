@@ -29,8 +29,7 @@ Before this, I earned my M.Tech in Computer Science and Engineering from [IIT Gu
 
 <dl class="dl-horizontal">
 
-<dt id="fractious">fractious</dt>
-<dd>{{1}}</dd>
+<dt id="fractious">fractious</dt> <dd>{{1}}</dd>
 
 <dt id="gratuitous">gratuitous</dt>
 <dd>{{1}}</dd>
