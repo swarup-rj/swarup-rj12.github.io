@@ -26,3 +26,25 @@ Before this, I earned my M.Tech in Computer Science and Engineering from [IIT Gu
 > **2019-09-12** *Paper accepted at [ICMLA 2019](https://www.icmla-conference.org), Boca Raton, Florida, USA.*
 
 **[Last updated: Feb 25, 2020]**
+
+<dl class="dl-horizontal">
+
+<dt id="fractious">fractious</dt>
+<dd>{{1}}</dd>
+
+<dt id="gratuitous">gratuitous</dt>
+<dd>{{1}}</dd>
+
+<dt id="haughty">haughty</dt>
+<dd>{{1}}</dd>
+
+<dt id="benchmark_id">gratuitous</dt>
+<dd>{{1}}</dd>
+
+<dt id="impertinent">impertinent</dt>
+<dd>{{1}}</dd>
+
+<dt id="intrepid">intrepid</dt>
+<dd>{{1}}</dd>
+
+</dl>
