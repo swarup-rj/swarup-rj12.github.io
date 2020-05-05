@@ -28,3 +28,4 @@ Before this, I earned my M.Tech in Computer Science and Engineering from [IIT Gu
 **[Last updated: Feb 25, 2020]**
 
 {% include note.html content='hello'}
+{% include callout.html content="This is my callout. It has a border on the left whose color you define by passing a type parameter. I typically use this style of callout when I have more information that I want to share, often spanning multiple paragraphs. " type="primary" %}
