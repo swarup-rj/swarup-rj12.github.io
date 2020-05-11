@@ -3,13 +3,9 @@ layout: page
 title: Publications
 active: publications
 ---
+DBLP[https://dblp.uni-trier.de/pers/hd/b/Behera:Swarup_Ranjan] Google Scholar[https://scholar.google.com/citations?user=ruPkOMoAAAAJ&hl=en]
 
-> ***Mining Temporal Changes in Strengths and Weaknesses of Cricket Players Using Tensor Decomposition***
-  >> **Swarup Ranjan Behera** and Vijaya V Saradhi  
-  >> [In proceedings of the 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning](https://www.esann.org/)  
-  >> Bruges, Belgium, April 22-24, 2020
+<p><h3>Conferences</h3></p>
 
-> ***Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary ([link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8999115))***
-  >> **Swarup Ranjan Behera**, Parag Agrawal, Amit Awekar, and V. Vijaya Saradhi  
-  >> [In proceedings of the 18th IEEE International Conference on Machine Learning and Applications](https://www.icmla-conference.org/icmla19/)  
-  >> Boca Raton, Florida, USA, December 16-19, 2019
+* **S. R. Behera** and V. S. Vedula, *Mining Temporal Changes in Strengths and Weaknesses of Cricket Players Using Tensor Decomposition*, In proceedings of the 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning ([ESANN](https://www.esann.org/)), Bruges, Belgium, 2020.
++ **S. R. Behera**, P. Agrawal, A. Awekar and V. S. Vedula, *Mining Strengths and Weaknesses of Cricket Players Using Short Text Commentary*, 2019 18th IEEE International Conference On Machine Learning And Applications ([ICMLA](https://www.icmla-conference.org/icmla19/)), Boca Raton, FL, USA, 2019, pp. 673-679, doi: 10.1109/ICMLA.2019.00122. ([link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8999115))
