@@ -19,8 +19,8 @@ Before this, I earned my M.Tech in Computer Science and Engineering from [IIT Gu
 
 <p><h3>News & Activities</h3></p>
 
-- [2020-05-05]  Serving as a reviewer of [IEEE VIS 2020](http://ieeevis.org/year/2020/welcome/).
-- [2020-03-29]  Serving in the Program Committee of [ECML-PKDD 2020](http://ieeevis.org/year/2020/welcome).
+- [2020-05-05]  Served as a reviewer of [IEEE VIS 2020](http://ieeevis.org/year/2020/welcome/).
+- [2020-03-29]  Served as a program committee member of [ECML-PKDD 2020](http://ieeevis.org/year/2020/welcome).
 - [2020-01-24]  Paper accepted at [ESANN 2020](https://www.esann.org/), Bruges, Belgium.
 - [2019-09-12]  Paper accepted at [ICMLA 2019](https://www.icmla-conference.org), Boca Raton, Florida, USA.
 
