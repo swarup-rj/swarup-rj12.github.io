@@ -3,7 +3,7 @@ layout: page
 title: Publications
 active: publications
 ---
-[DBLP](https://dblp.uni-trier.de/pers/hd/b/Behera:Swarup_Ranjan) [Google Scholar](https://scholar.google.com/citations?user=ruPkOMoAAAAJ&hl=en)
+[DBLP](https://dblp.uni-trier.de/pers/hd/b/Behera:Swarup_Ranjan) / [Google Scholar](https://scholar.google.com/citations?user=ruPkOMoAAAAJ&hl=en)
 
 <p><h3>Conferences</h3></p>
 
