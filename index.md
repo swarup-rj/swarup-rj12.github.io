@@ -18,7 +18,7 @@ Before this, I earned my M.Tech in Computer Science and Engineering from [IIT Gu
   - Sports Data Mining
 
 <p><h3>News & Activities</h3></p>
-
+- [2020-07-11]  Paper accepted at [MLSA 2020](https://dtai.cs.kuleuven.be/events/MLSA20/), Ghent, Belgium.
 - [2020-05-05]  Served as a reviewer of [IEEE VIS 2020](http://ieeevis.org/year/2020/welcome/).
 - [2020-03-29]  Served as a program committee member of [ECML-PKDD 2020](http://ieeevis.org/year/2020/welcome).
 - [2020-01-24]  Paper accepted at [ESANN 2020](https://www.esann.org/), Bruges, Belgium.
