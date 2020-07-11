@@ -24,4 +24,4 @@ Before this, I earned my M.Tech in Computer Science and Engineering from [IIT Gu
 - [2020-01-24]  Paper accepted at [ESANN 2020](https://www.esann.org/), Bruges, Belgium.
 - [2019-09-12]  Paper accepted at [ICMLA 2019](https://www.icmla-conference.org), Boca Raton, Florida, USA.
 
-**[Last updated: May 11, 2020]**
+**[Last updated: July 11, 2020]**
