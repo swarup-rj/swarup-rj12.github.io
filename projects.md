@@ -6,32 +6,22 @@ title: Projects
 ### Research Projects
 ___
 
-##### *PhD*
-
-- [Mining strengths and weaknesses of cricket players.](/projects/weakness)
-
-- [Mining temporal changes in strengths and weaknesses of cricket players.](/projects/weaknesstime)
-
-##### *M.Tech* 
-
-- [Spectral clustering using convex and constrained settings.](/projects/spectralclustering)
-
-
-##### *B.Tech* 
-
-- [A novel ontology based entity relationship model.](/projects/ontology)
+-[PhD]  [Mining strengths and weaknesses of cricket players.](/projects/weakness)
+-[PhD]  [Mining temporal changes in strengths and weaknesses of cricket players.](/projects/weaknesstime)
+-[M.Tech]  [Spectral clustering using convex and constrained settings.](/projects/spectralclustering)
+-[B.Tech] [A novel ontology based entity relationship model.](/projects/ontology)
 
 ### Term Projects
 ___
 
-- [Community detection using greedy clique and plex algorithm.](/projects/clique)
+-[M.Tech] [Community detection using greedy clique and plex algorithm.](/projects/clique)
 
-- [Web search engine.](/projects/searchengine)
+-[M.Tech] [Web search engine.](/projects/searchengine)
 
 ### Summer Projects
 ___
 
-- [Virtual learning environment for Chemistry department IIT Guwahati.](/projects/virtual)
+-[M.Tech] [Virtual learning environment for Chemistry department IIT Guwahati.](/projects/virtual)
 
 
 ### Other
