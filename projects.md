@@ -15,7 +15,6 @@ ___
 ___
 
 - [M.Tech] [Community detection using greedy clique and plex algorithm.](/projects/clique)
-
 - [M.Tech] [Web search engine.](/projects/searchengine)
 
 ### Summer Projects
