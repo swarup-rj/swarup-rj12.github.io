@@ -4,6 +4,7 @@ title: Projects
 ---
 
 ### Research Projects
+___
 
 ##### *PhD*
 
@@ -21,17 +22,20 @@ title: Projects
 - [A novel ontology based entity relationship model.](/projects/ontology)
 
 ### Term Projects
+___
 
 - [Community detection using greedy clique and plex algorithm.](/projects/clique)
 
 - [Web search engine.](/projects/searchengine)
 
 ### Summer Projects
+___
 
 - [Virtual learning environment for Chemistry department IIT Guwahati.](/projects/virtual)
 
 
 ### Other
+___
 
 [My blog](/blog)- analyses, tutorials, updates 
 
