@@ -5,7 +5,6 @@ title: About
 ---
 
 <p><h3>About me</h3></p>
-
 ___
 
 I am a PhD student at Department of Computer Science and Engineering, [IIT Guwahati](https://www.iitg.ac.in/) under the supervision of [Dr. Vijaya V. Saradhi](https://www.iitg.ac.in/saradhi/personal.html). My academic (PhD) research is focused on the identification of strengths and weaknesses of [Cricket](https://en.wikipedia.org/wiki/Cricket) players using [short text commentary](https://www.espncricinfo.com/story/_/id/21842785/siddhartha-vaidyanathan-online-cricket-text-commentary-pioneer-robert-elz) data. 
@@ -13,7 +12,6 @@ I am a PhD student at Department of Computer Science and Engineering, [IIT Guwah
 Before this, I earned my M.Tech in Computer Science and Engineering from [IIT Guwahati](https://www.iitg.ac.in/), where I worked under the supervision of [Dr. Vijaya V. Saradhi](https://www.iitg.ac.in/saradhi/personal.html) on the problem - ''Spectral clustering using convex and constrained settings''.
 
 <p><h3>Research Interest</h3></p>
-
 ___
 
 * Machine Learning
@@ -22,7 +20,6 @@ ___
   - Sports Data Mining
 
 <p><h3>News & Activities</h3></p>
-
 ___
 
 - [2020-07-11]  Paper accepted at [MLSA 2020](https://dtai.cs.kuleuven.be/events/MLSA20/), Ghent, Belgium.
