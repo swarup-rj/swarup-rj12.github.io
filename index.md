@@ -19,9 +19,6 @@ ___
   - Short Text Mining
   - Sports Data Mining
 
-___
-
-
 <p><h3>News & Activities</h3></p>
 ___
 
