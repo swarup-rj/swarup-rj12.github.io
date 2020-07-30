@@ -1,12 +1,12 @@
 ---
-title: "Text Mining in R: Data Pre-processing"
+title: "Text Mining in R: Data Processing"
 layout: post
 date: 2020-07-30
 tags: blog
 comments: true
 ---
 ###### Goal
-* To demonstrate the data pre-processing in R for further text analysis.
+* To demonstrate the processing of data in R for further text analysis.
 
 ###### Load the data
 Download the dataset: [200 text Commentaries for batsman Steve Smith](https://swarup-rj.github.io/assets/data/SmithCommentary200.csv)
@@ -44,7 +44,7 @@ comm.tm <- unnest_tokens(commentary200, word, commentary, to_lower = TRUE)
 # “go”, “goes”, “going”, and “gone” ----mutate----> “go”
 comm.tm <- mutate(comm.tm, word.stem = wordStem(word, language = "en"))
 
-# Steming function
+# steming function
 stem_hunspell <- function(term) {
     stems <- hunspell_stem(term)[[1]]
     
@@ -77,6 +77,6 @@ comm.stem$commentary <- stri_replace_all_regex(comm.stem$commentary, orig.words,
 # remove duplicates
 comm.stem <- comm.stem[!duplicated(comm.stem$commentary), ]
 
-# Save the final stemed commentary for further use
+# Save the final stemmed commentary for further use
 write.csv(comm.stem, "commentary200.stem.commentary.csv", row.names = F)
 ```
