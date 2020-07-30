@@ -8,14 +8,6 @@ comments: true
 ###### Goal
 * To demonstrate the processing of data in R for further text analysis.
 
-###### Import dependencies
-```r
-# Load packages
-library("RCurl")
-library("XML")
-library("tidyverse")
-```
-
 ###### Load the data
 Download the dataset: [200 text Commentaries for batsman Steve Smith](https://swarup-rj.github.io/assets/data/SmithCommentary200.csv)
 ```r
@@ -37,4 +29,41 @@ Remove text Commentaries shorter than 10 characters
 commentary200 <- commentary200[nchar(commentary200$commentary) > 10, ]
 dim(commentary200)
 #[1] 198   3
+```
+
+###### Data Tokenization and Stemming
+```r
+library(SnowballC)
+library(tidytext)
+library(hunspell)
+library(dplyr)
+
+comm.tm <- unnest_tokens(commentary200, word, commentary, to_lower = TRUE)
+comm.tm <- mutate(comm.tm, word.stem = wordStem(word, language = "en"))
+## A function to do the stem
+stem_hunspell <- function(term) {
+    stems <- hunspell_stem(term)[[1]]
+    
+    if (length(stems) == 0) {
+        stem <- NA
+    } else {
+        if (nchar(stems[[length(stems)]]) > 1) 
+            stem <- stems[[length(stems)]] else stem <- term
+    }
+    stem
+}
+
+word.list <- count(comm.tm, word)
+words.stem <- lapply(word.list$word, stem_hunspell)
+stem.list <- cbind(word.list, stem = unlist(words.stem))
+stem.list <- stem.list[!is.na(stem.list[, 3]) & stem.list[, 1] != stem.list[, 3],]
+write.csv(stem.list, "stem.list.commentary.csv", row.names = F)
+
+stem.list <- read.csv("stem.list.commentary.csv", stringsAsFactors = FALSE)
+comm.stem <- commentary200
+orig.words <- paste0("\\b", stem.list[, 1], "\\b")
+stem.words <- stem.list[, 3]
+comm.stem$commentary <- stri_replace_all_regex(comm.stem$commentary, orig.words, stem.words, vectorize_all = FALSE)
+comm.stem <- comm.stem[!duplicated(comm.stem$commentary), ]
+write.csv(comm.stem, "commentary200.stem.commentary.csv", row.names = F)
 ```
