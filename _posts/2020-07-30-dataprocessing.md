@@ -1,5 +1,5 @@
 ---
-title: "Text Mining in R: Data Processing"
+title: "Text Mining in R: Data Preprocessing"
 layout: post
 date: 2020-07-30
 tags: blog
