@@ -16,7 +16,8 @@ ___
 
 * **S. R. Behera** and V. S. Vedula, *Stats Aren't Everything; Learning Strengths and Weaknesses of Cricket Players*, In proceedings of the 7th Workshop on Machine Learning and Data Mining for Sports Analytics ([MSLA20](https://dtai.cs.kuleuven.be/events/MLSA20/links.php)), ECML/PKDD Workshop, Ghent, Belgium, 2020.
 
-<p><h3>Posters</h3></p>
+<p><h3>Non-refereed Conferences</h3></p>
 ___
-* **S. R. Behera** and V. S. Vedula, *Video Data Do More. Tracking Data Do Much. Text Commentary Data Do Much More*, Carnegie Mellon Sports Analytics Conference ([CMSAC](http://www.stat.cmu.edu/cmsac/conference/2020/)), Virtual Conference, 2020.
-+ **S. R. Behera** and V. S. Vedula, *Batsman's Kryptonite: Learning Weakness and Strength Rules of Cricket Players using Association Rule Mining*, Carnegie Mellon Sports Analytics Conference ([CMSAC](http://www.stat.cmu.edu/cmsac/conference/2020/)), Virtual Conference, 2020.
+* **S. R. Behera**, *Performance Analysis of Batsman against Spin Bowling and Fast Bowling in Cricket*, Ohio State Sports Analytics Conference ([OSUSAAC20](http://org.osu.edu/sportsanalytics/)),  Columbus, United States, 2020
+* **S. R. Behera** and V. S. Vedula, *Video Data Do More. Tracking Data Do Much. Text Commentary Data Do Much More*, Carnegie Mellon Sports Analytics Conference ([CMSAC](http://www.stat.cmu.edu/cmsac/conference/2020/)), Pittsburgh, United States, 2020.
++ **S. R. Behera** and V. S. Vedula, *Batsman's Kryptonite: Learning Weakness and Strength Rules of Cricket Players using Association Rule Mining*, Carnegie Mellon Sports Analytics Conference ([CMSAC](http://www.stat.cmu.edu/cmsac/conference/2020/)), Pittsburgh, United States, 2020.
